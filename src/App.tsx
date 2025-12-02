@@ -1,167 +1,39 @@
-﻿import { useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
+import wordsData from '../words.json'
 import './App.css'
 
 type WordEntry = {
-  croatian: string
-  translations: {
-    english: string
-    hindi: string
-  }
-  category: 'Safety' | 'Tools & equipment' | 'Materials' | 'Actions & site talk' | 'Logistics'
-  note?: string
+  id: string
+  en: string
+  hr: string
+  hi: string
+  category: string
+  level?: number
 }
 
-const words: WordEntry[] = [
-  {
-    croatian: 'šljem',
-    translations: {
-      english: 'helmet',
-      hindi: 'हेलमेट',
-    },
-    category: 'Safety',
-    note: 'SHLYEM',
-  },
-  {
-    croatian: 'rukavice',
-    translations: {
-      english: 'gloves',
-      hindi: 'दस्ताने',
-    },
-    category: 'Safety',
-    note: 'roo-KAH-vee-tseh',
-  },
-  {
-    croatian: 'sigurnosni pojas',
-    translations: {
-      english: 'safety harness',
-      hindi: 'सुरक्षा बेल्ट',
-    },
-    category: 'Safety',
-  },
-  {
-    croatian: 'zaštitne naočale',
-    translations: {
-      english: 'safety goggles',
-      hindi: 'सुरक्षा चश्मा',
-    },
-    category: 'Safety',
-  },
-  {
-    croatian: 'ljestve',
-    translations: {
-      english: 'ladder',
-      hindi: 'सीढ़ी',
-    },
-    category: 'Tools & equipment',
-    note: 'LYEST-veh',
-  },
-  {
-    croatian: 'bušilica',
-    translations: {
-      english: 'drill',
-      hindi: 'ड्रिल मशीन',
-    },
-    category: 'Tools & equipment',
-  },
-  {
-    croatian: 'kutna brusilica',
-    translations: {
-      english: 'angle grinder',
-      hindi: 'एंगल ग्राइंडर',
-    },
-    category: 'Tools & equipment',
-  },
-  {
-    croatian: 'mjerač trake',
-    translations: {
-      english: 'measuring tape',
-      hindi: 'मापने का फीता',
-    },
-    category: 'Tools & equipment',
-  },
-  {
-    croatian: 'beton',
-    translations: {
-      english: 'concrete',
-      hindi: 'कंक्रीट',
-    },
-    category: 'Materials',
-  },
-  {
-    croatian: 'armatura',
-    translations: {
-      english: 'rebar / reinforcement',
-      hindi: 'सरिया / रिइनफोर्समेंट',
-    },
-    category: 'Materials',
-    note: 'ahr-mah-TOO-rah',
-  },
-  {
-    croatian: 'cigla',
-    translations: {
-      english: 'brick',
-      hindi: 'ईंट',
-    },
-    category: 'Materials',
-  },
-  {
-    croatian: 'žbuka',
-    translations: {
-      english: 'plaster',
-      hindi: 'प्लास्टर',
-    },
-    category: 'Materials',
-  },
-  {
-    croatian: 'pazi',
-    translations: {
-      english: 'watch out / be careful',
-      hindi: 'सावधान',
-    },
-    category: 'Actions & site talk',
-    note: 'PAH-zee',
-  },
-  {
-    croatian: 'nosimo zajedno',
-    translations: {
-      english: 'carry together',
-      hindi: 'एक साथ उठाते हैं',
-    },
-    category: 'Actions & site talk',
-  },
-  {
-    croatian: 'istovar',
-    translations: {
-      english: 'unload',
-      hindi: 'उतारना',
-    },
-    category: 'Logistics',
-  },
-  {
-    croatian: 'dovoz',
-    translations: {
-      english: 'delivery / arrival',
-      hindi: 'डिलीवरी / आगमन',
-    },
-    category: 'Logistics',
-  },
+const formatCategoryLabel = (category: string) =>
+  category.replace(/\b\w/g, (char) => char.toUpperCase())
+
+const words: WordEntry[] = wordsData
+
+const categories = [
+  { value: 'All', label: 'All' },
+  ...Array.from(
+    new Map(words.map((word) => [word.category, formatCategoryLabel(word.category)])).entries(),
+  ).map(([value, label]) => ({ value, label })),
 ]
 
-const categories: Array<WordEntry['category'] | 'All'> = [
-  'All',
-  ...Array.from(new Set(words.map((word) => word.category))),
-]
+const translationOptions = [
+  { key: 'en', label: 'English' },
+  { key: 'hi', label: 'Hindi' },
+] as const
 
-type TranslationKey = keyof WordEntry['translations']
-const translationOptions: { key: TranslationKey; label: string }[] = [
-  { key: 'english', label: 'English' },
-  { key: 'hindi', label: 'Hindi' },
-]
+type TranslationKey = (typeof translationOptions)[number]['key']
 
 function App() {
   const [query, setQuery] = useState('')
-  const [activeCategory, setActiveCategory] = useState<(typeof categories)[number]>('All')
-  const [translation, setTranslation] = useState<TranslationKey>('english')
+  const [activeCategory, setActiveCategory] = useState<(typeof categories)[number]['value']>('All')
+  const [translation, setTranslation] = useState<TranslationKey>('en')
 
   const filteredWords = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase()
@@ -169,12 +41,7 @@ function App() {
       const matchesCategory = activeCategory === 'All' || word.category === activeCategory
       if (!normalizedQuery) return matchesCategory
 
-      const searchable = [
-        word.croatian,
-        word.translations.english,
-        word.translations.hindi,
-        word.note,
-      ]
+      const searchable = [word.hr, word.en, word.hi]
         .filter(Boolean)
         .join(' ')
         .toLowerCase()
@@ -192,7 +59,6 @@ function App() {
             <h1>Core Croatian construction site words</h1>
           </div>
         </div>
- 
       </header>
 
       <section className="panel">
@@ -213,11 +79,11 @@ function App() {
             <div className="category-pills">
               {categories.map((category) => (
                 <button
-                  key={category}
-                  className={`pill ${activeCategory === category ? 'pill-active' : ''}`}
-                  onClick={() => setActiveCategory(category)}
+                  key={category.value}
+                  className={`pill ${activeCategory === category.value ? 'pill-active' : ''}`}
+                  onClick={() => setActiveCategory(category.value)}
                 >
-                  {category}
+                  {category.label}
                 </button>
               ))}
             </div>
@@ -226,7 +92,6 @@ function App() {
           <div className="translation-row">
             <div className="translation-meta">
               <p className="filter-label">Translation language</p>
-             
             </div>
             <select
               value={translation}
@@ -244,12 +109,12 @@ function App() {
 
         <div className="word-grid">
           {filteredWords.map((word) => (
-            <article key={word.croatian} className="word-card">
+            <article key={word.id} className="word-card">
               <div className="card-head">
-                <span className="badge">{word.category}</span>
+                <span className="badge">{formatCategoryLabel(word.category)}</span>
               </div>
-              <h3>{word.croatian}</h3>
-              <p className="english">{word.translations[translation]}</p>
+              <h3>{word.hr}</h3>
+              <p className="english">{word[translation]}</p>
             </article>
           ))}
         </div>

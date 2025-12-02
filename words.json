@@ -1,0 +1,978 @@
+[
+  {
+    "id": "core-001",
+    "en": "construction",
+    "hr": "gradnja / građevina",
+    "hi": "निर्माण",
+    "category": "general",
+    "level": 1
+  },
+  {
+    "id": "core-002",
+    "en": "worker",
+    "hr": "radnik",
+    "hi": "मज़दूर / कर्मचारी",
+    "category": "general",
+    "level": 1
+  },
+  {
+    "id": "core-003",
+    "en": "site",
+    "hr": "gradilište",
+    "hi": "निर्माण स्थल",
+    "category": "general",
+    "level": 1
+  },
+  {
+    "id": "core-004",
+    "en": "safety",
+    "hr": "sigurnost",
+    "hi": "सुरक्षा",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-005",
+    "en": "helmet",
+    "hr": "kaciga",
+    "hi": "हेलमेट",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-006",
+    "en": "goggles",
+    "hr": "zaštitne naočale",
+    "hi": "सुरक्षा चश्मा",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-007",
+    "en": "gloves",
+    "hr": "rukavice",
+    "hi": "दस्ताने",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-008",
+    "en": "boots",
+    "hr": "zaštitne čizme",
+    "hi": "सुरक्षात्मक जूते",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-009",
+    "en": "vest",
+    "hr": "reflektirajući prsluk",
+    "hi": "प्रतिबिंबित जैकेट",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-010",
+    "en": "ladder",
+    "hr": "ljestve",
+    "hi": "सीढ़ी",
+    "category": "access",
+    "level": 1
+  },
+  {
+    "id": "core-011",
+    "en": "scaffold",
+    "hr": "skela",
+    "hi": "मचान",
+    "category": "access",
+    "level": 2
+  },
+  {
+    "id": "core-012",
+    "en": "harness",
+    "hr": "sigurnosni pojas",
+    "hi": "सुरक्षा पट्टा",
+    "category": "safety",
+    "level": 2
+  },
+  {
+    "id": "core-013",
+    "en": "guardrail",
+    "hr": "zaštitna ograda",
+    "hi": "रैलिंग / किनारा सुरक्षा",
+    "category": "safety",
+    "level": 2
+  },
+  {
+    "id": "core-014",
+    "en": "hazard",
+    "hr": "opasnost",
+    "hi": "जोखिम / ख़तरा",
+    "category": "safety",
+    "level": 2
+  },
+  {
+    "id": "core-015",
+    "en": "warning",
+    "hr": "upozorenje",
+    "hi": "चेतावनी",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-016",
+    "en": "toolbox",
+    "hr": "kutija s alatom",
+    "hi": "औज़ार का डिब्बा",
+    "category": "tools",
+    "level": 1
+  },
+  {
+    "id": "core-017",
+    "en": "drill",
+    "hr": "bušilica",
+    "hi": "ड्रिल मशीन",
+    "category": "tools",
+    "level": 1
+  },
+  {
+    "id": "core-018",
+    "en": "hammer",
+    "hr": "čekić",
+    "hi": "हथौड़ा",
+    "category": "tools",
+    "level": 1
+  },
+  {
+    "id": "core-019",
+    "en": "screwdriver",
+    "hr": "odvijač",
+    "hi": "पेचकस",
+    "category": "tools",
+    "level": 1
+  },
+  {
+    "id": "core-020",
+    "en": "wrench",
+    "hr": "ključ",
+    "hi": "रेन्च / चाबी",
+    "category": "tools",
+    "level": 1
+  },
+  {
+    "id": "core-021",
+    "en": "pliers",
+    "hr": "kliješta",
+    "hi": "प्लायर",
+    "category": "tools",
+    "level": 1
+  },
+  {
+    "id": "core-022",
+    "en": "saw",
+    "hr": "pila",
+    "hi": "आरी",
+    "category": "tools",
+    "level": 1
+  },
+  {
+    "id": "core-023",
+    "en": "trowel",
+    "hr": "gleter / žlica za žbuku",
+    "hi": "गारा फैलाने की करछी (ट्रॉवेल)",
+    "category": "tools",
+    "level": 2
+  },
+  {
+    "id": "core-024",
+    "en": "level",
+    "hr": "libela",
+    "hi": "लेवल / समतल यंत्र",
+    "category": "tools",
+    "level": 2
+  },
+  {
+    "id": "core-025",
+    "en": "tape measure",
+    "hr": "metar / mjerna traka",
+    "hi": "फीता / मापने की टेप",
+    "category": "tools",
+    "level": 1
+  },
+  {
+    "id": "core-026",
+    "en": "shovel",
+    "hr": "lopata",
+    "hi": "फावड़ा",
+    "category": "tools",
+    "level": 1
+  },
+  {
+    "id": "core-027",
+    "en": "wheelbarrow",
+    "hr": "tačke",
+    "hi": "ठेला / व्हीलबैरो",
+    "category": "tools",
+    "level": 2
+  },
+  {
+    "id": "core-028",
+    "en": "generator",
+    "hr": "generator / agregat",
+    "hi": "जनरेटर",
+    "category": "equipment",
+    "level": 2
+  },
+  {
+    "id": "core-029",
+    "en": "compressor",
+    "hr": "kompresor",
+    "hi": "कम्प्रेसर",
+    "category": "equipment",
+    "level": 2
+  },
+  {
+    "id": "core-030",
+    "en": "jackhammer",
+    "hr": "pneumatski čekić",
+    "hi": "जैकहैमर / न्यूमेटिक हथौड़ा",
+    "category": "equipment",
+    "level": 3
+  },
+  {
+    "id": "core-031",
+    "en": "excavator",
+    "hr": "bager",
+    "hi": "खुदाई मशीन (एक्स्कावेटर)",
+    "category": "equipment",
+    "level": 2
+  },
+  {
+    "id": "core-032",
+    "en": "bulldozer",
+    "hr": "buldožer",
+    "hi": "बुलडोज़र",
+    "category": "equipment",
+    "level": 2
+  },
+  {
+    "id": "core-033",
+    "en": "loader",
+    "hr": "utovarivač",
+    "hi": "लोडर",
+    "category": "equipment",
+    "level": 2
+  },
+  {
+    "id": "core-034",
+    "en": "crane",
+    "hr": "dizalica",
+    "hi": "क्रेन",
+    "category": "equipment",
+    "level": 2
+  },
+  {
+    "id": "core-035",
+    "en": "backhoe",
+    "hr": "rovokopač",
+    "hi": "बैकहो मशीन",
+    "category": "equipment",
+    "level": 3
+  },
+  {
+    "id": "core-036",
+    "en": "grader",
+    "hr": "grejder",
+    "hi": "ग्रेडर",
+    "category": "equipment",
+    "level": 3
+  },
+  {
+    "id": "core-037",
+    "en": "forklift",
+    "hr": "viljuškar",
+    "hi": "फोर्कलिफ्ट",
+    "category": "equipment",
+    "level": 2
+  },
+  {
+    "id": "core-038",
+    "en": "roller",
+    "hr": "valjak",
+    "hi": "रोड रोलर",
+    "category": "equipment",
+    "level": 2
+  },
+  {
+    "id": "core-039",
+    "en": "concrete",
+    "hr": "beton",
+    "hi": "कंक्रीट",
+    "category": "materials",
+    "level": 1
+  },
+  {
+    "id": "core-040",
+    "en": "cement",
+    "hr": "cement",
+    "hi": "सीमेंट",
+    "category": "materials",
+    "level": 1
+  },
+  {
+    "id": "core-041",
+    "en": "mortar",
+    "hr": "mort / žbuka",
+    "hi": "गारा / मसाला",
+    "category": "materials",
+    "level": 2
+  },
+  {
+    "id": "core-042",
+    "en": "sand",
+    "hr": "pijesak",
+    "hi": "रेत",
+    "category": "materials",
+    "level": 1
+  },
+  {
+    "id": "core-043",
+    "en": "gravel",
+    "hr": "šljunak",
+    "hi": "बजरी / गिट्टी",
+    "category": "materials",
+    "level": 1
+  },
+  {
+    "id": "core-044",
+    "en": "asphalt",
+    "hr": "asfalt",
+    "hi": "डामर / एस्फाल्ट",
+    "category": "materials",
+    "level": 2
+  },
+  {
+    "id": "core-045",
+    "en": "rebar",
+    "hr": "armatura",
+    "hi": "सरीया / स्टील रॉड",
+    "category": "materials",
+    "level": 2
+  },
+  {
+    "id": "core-046",
+    "en": "formwork",
+    "hr": "oplata / šalung",
+    "hi": "फॉर्मवर्क / सांचाबंदी",
+    "category": "structure",
+    "level": 2
+  },
+  {
+    "id": "core-047",
+    "en": "beam",
+    "hr": "greda",
+    "hi": "बीम",
+    "category": "structure",
+    "level": 1
+  },
+  {
+    "id": "core-048",
+    "en": "column",
+    "hr": "stup",
+    "hi": "स्तंभ",
+    "category": "structure",
+    "level": 1
+  },
+  {
+    "id": "core-049",
+    "en": "slab",
+    "hr": "ploča",
+    "hi": "स्लैब",
+    "category": "structure",
+    "level": 1
+  },
+  {
+    "id": "core-050",
+    "en": "footing",
+    "hr": "stopa",
+    "hi": "फुटिंग",
+    "category": "structure",
+    "level": 2
+  },
+  {
+    "id": "core-051",
+    "en": "foundation",
+    "hr": "temelj",
+    "hi": "नींव",
+    "category": "structure",
+    "level": 1
+  },
+  {
+    "id": "core-052",
+    "en": "trench",
+    "hr": "rov",
+    "hi": "खाई / खंदक",
+    "category": "earthworks",
+    "level": 2
+  },
+  {
+    "id": "core-053",
+    "en": "backfill",
+    "hr": "nasip / zasip",
+    "hi": "बैकफिल / भराई",
+    "category": "earthworks",
+    "level": 2
+  },
+  {
+    "id": "core-054",
+    "en": "compaction",
+    "hr": "zbijanje",
+    "hi": "संपीड़न / दबाव देकर बैठाना",
+    "category": "earthworks",
+    "level": 2
+  },
+  {
+    "id": "core-055",
+    "en": "brick",
+    "hr": "cigla",
+    "hi": "ईंट",
+    "category": "materials",
+    "level": 1
+  },
+  {
+    "id": "core-056",
+    "en": "block",
+    "hr": "betonski blok",
+    "hi": "कंक्रीट ब्लॉक",
+    "category": "materials",
+    "level": 1
+  },
+  {
+    "id": "core-057",
+    "en": "masonry",
+    "hr": "zidanje / zidarija",
+    "hi": "ईंट का काम (मेसनरी)",
+    "category": "materials",
+    "level": 2
+  },
+  {
+    "id": "core-058",
+    "en": "tile",
+    "hr": "pločica / crijep",
+    "hi": "टाइल / कड़ा",
+    "category": "materials",
+    "level": 1
+  },
+  {
+    "id": "core-059",
+    "en": "drywall",
+    "hr": "knauf ploča / gips-karton",
+    "hi": "ड्रायवॉल / जिप्सम बोर्ड",
+    "category": "materials",
+    "level": 3
+  },
+  {
+    "id": "core-060",
+    "en": "insulation",
+    "hr": "izolacija",
+    "hi": "इन्सुलेशन / रोधन",
+    "category": "materials",
+    "level": 2
+  },
+  {
+    "id": "core-061",
+    "en": "roof",
+    "hr": "krov",
+    "hi": "छत / छप्पर",
+    "category": "structure",
+    "level": 1
+  },
+  {
+    "id": "core-062",
+    "en": "waterproofing",
+    "hr": "hidroizolacija",
+    "hi": "वाटरप्रूफिंग / जलरोधन",
+    "category": "materials",
+    "level": 3
+  },
+  {
+    "id": "core-063",
+    "en": "sealant",
+    "hr": "brtvilo / silikon",
+    "hi": "सीलेंट / सील करने वाला पदार्थ",
+    "category": "materials",
+    "level": 3
+  },
+  {
+    "id": "core-064",
+    "en": "steel",
+    "hr": "čelik",
+    "hi": "स्टील / इस्पात",
+    "category": "materials",
+    "level": 1
+  },
+  {
+    "id": "core-065",
+    "en": "timber",
+    "hr": "drvo / drvena građa",
+    "hi": "लकड़ी / टिम्बर",
+    "category": "materials",
+    "level": 1
+  },
+  {
+    "id": "core-066",
+    "en": "plywood",
+    "hr": "šperploča",
+    "hi": "प्लाईवुड",
+    "category": "materials",
+    "level": 2
+  },
+  {
+    "id": "core-067",
+    "en": "anchor",
+    "hr": "anker / sidro",
+    "hi": "एंकर / पकड़ने वाला बोल्ट",
+    "category": "fixings",
+    "level": 2
+  },
+  {
+    "id": "core-068",
+    "en": "bolt",
+    "hr": "vijak",
+    "hi": "बोल्ट",
+    "category": "fixings",
+    "level": 1
+  },
+  {
+    "id": "core-069",
+    "en": "nut",
+    "hr": "matica",
+    "hi": "नट",
+    "category": "fixings",
+    "level": 1
+  },
+  {
+    "id": "core-070",
+    "en": "screw",
+    "hr": "vijak / šaraf",
+    "hi": "पेंच / स्क्रू",
+    "category": "fixings",
+    "level": 1
+  },
+  {
+    "id": "core-071",
+    "en": "nail",
+    "hr": "čavao",
+    "hi": "कील",
+    "category": "fixings",
+    "level": 1
+  },
+  {
+    "id": "core-072",
+    "en": "cable",
+    "hr": "kabel",
+    "hi": "केबल",
+    "category": "electrical",
+    "level": 1
+  },
+  {
+    "id": "core-073",
+    "en": "wire",
+    "hr": "žica",
+    "hi": "तार",
+    "category": "electrical",
+    "level": 1
+  },
+  {
+    "id": "core-074",
+    "en": "pipe",
+    "hr": "cijev",
+    "hi": "पाइप",
+    "category": "plumbing",
+    "level": 1
+  },
+  {
+    "id": "core-075",
+    "en": "valve",
+    "hr": "ventil",
+    "hi": "वाल्व / नल",
+    "category": "plumbing",
+    "level": 2
+  },
+  {
+    "id": "core-076",
+    "en": "pump",
+    "hr": "pumpa",
+    "hi": "पम्प",
+    "category": "plumbing",
+    "level": 2
+  },
+  {
+    "id": "core-077",
+    "en": "switch",
+    "hr": "prekidač",
+    "hi": "स्विच",
+    "category": "electrical",
+    "level": 1
+  },
+  {
+    "id": "core-078",
+    "en": "socket",
+    "hr": "utičnica",
+    "hi": "सॉकेट / प्लग पॉइंट",
+    "category": "electrical",
+    "level": 1
+  },
+  {
+    "id": "core-079",
+    "en": "breaker",
+    "hr": "osigurač / sklopka",
+    "hi": "ब्रेक़र / एमसीबी",
+    "category": "electrical",
+    "level": 2
+  },
+  {
+    "id": "core-080",
+    "en": "plan",
+    "hr": "plan",
+    "hi": "प्लान / योजना",
+    "category": "drawings",
+    "level": 1
+  },
+  {
+    "id": "core-081",
+    "en": "drawing",
+    "hr": "nacrt / crtež",
+    "hi": "ड्रॉइंग / नक़्शा",
+    "category": "drawings",
+    "level": 1
+  },
+  {
+    "id": "core-082",
+    "en": "section",
+    "hr": "presjek",
+    "hi": "सेक्शन / कटाव",
+    "category": "drawings",
+    "level": 2
+  },
+  {
+    "id": "core-083",
+    "en": "elevation",
+    "hr": "pročelje / fasadni nacrt",
+    "hi": "एलिवेशन / ऊर्ध्वदृश्य",
+    "category": "drawings",
+    "level": 2
+  },
+  {
+    "id": "core-084",
+    "en": "detail",
+    "hr": "detalj",
+    "hi": "विवरण / डिटेल",
+    "category": "drawings",
+    "level": 2
+  },
+  {
+    "id": "core-085",
+    "en": "dimension",
+    "hr": "dimenzija",
+    "hi": "आकार / माप (डायमेंशन)",
+    "category": "drawings",
+    "level": 2
+  },
+  {
+    "id": "core-086",
+    "en": "scale",
+    "hr": "mjerilo",
+    "hi": "स्केल / मापमान",
+    "category": "drawings",
+    "level": 2
+  },
+  {
+    "id": "core-087",
+    "en": "survey",
+    "hr": "geodetsko snimanje / izmjera",
+    "hi": "सर्वे / माप सर्वेक्षण",
+    "category": "survey",
+    "level": 2
+  },
+  {
+    "id": "core-088",
+    "en": "stakeout",
+    "hr": "iskolčenje",
+    "hi": "स्टेकआउट / साइट पर निशान लगाना",
+    "category": "survey",
+    "level": 3
+  },
+  {
+    "id": "core-089",
+    "en": "grade",
+    "hr": "niveleta / nagib",
+    "hi": "ग्रेड / ढाल",
+    "category": "survey",
+    "level": 2
+  },
+  {
+    "id": "core-090",
+    "en": "alignment",
+    "hr": "trasiranje / poravnanje",
+    "hi": "अलाइनमेंट / सीध",
+    "category": "survey",
+    "level": 2
+  },
+  {
+    "id": "core-091",
+    "en": "layout",
+    "hr": "raspored / trasiranje",
+    "hi": "लेआउट / नक़्शानुसार व्यवस्था",
+    "category": "survey",
+    "level": 2
+  },
+  {
+    "id": "core-092",
+    "en": "tolerance",
+    "hr": "tolerancija",
+    "hi": "टॉलरेंस / सहनशील भिन्नता",
+    "category": "general",
+    "level": 3
+  },
+  {
+    "id": "core-093",
+    "en": "crew",
+    "hr": "ekipa / radna grupa",
+    "hi": "टीम / दल",
+    "category": "people",
+    "level": 1
+  },
+  {
+    "id": "core-094",
+    "en": "foreman",
+    "hr": "poslovođa / šef gradilišta",
+    "hi": "फोरमैन / मुखिया",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "core-095",
+    "en": "supervisor",
+    "hr": "nadzornik",
+    "hi": "सुपरवाइज़र / निरीक्षक",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "core-096",
+    "en": "engineer",
+    "hr": "inženjer",
+    "hi": "इंजीनियर",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "core-097",
+    "en": "architect",
+    "hr": "arhitekt",
+    "hi": "आर्किटेक्ट / वास्तुकार",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "core-098",
+    "en": "contractor",
+    "hr": "izvođač",
+    "hi": "कॉन्ट्रैक्टर / ठेकेदार",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "core-099",
+    "en": "subcontractor",
+    "hr": "podizvođač",
+    "hi": "सब-कॉन्ट्रैक्टर / उप-ठेकेदार",
+    "category": "people",
+    "level": 3
+  },
+  {
+    "id": "core-100",
+    "en": "laborer",
+    "hr": "pomoćni radnik",
+    "hi": "मज़दूर / helper",
+    "category": "people",
+    "level": 1
+  },
+  {
+    "id": "core-101",
+    "en": "apprentice",
+    "hr": "šegrt / priučeni radnik",
+    "hi": "प्रशिक्षु / अपरेंटिस",
+    "category": "people",
+    "level": 2
+  },
+  {
+    "id": "core-102",
+    "en": "meeting",
+    "hr": "sastanak",
+    "hi": "मीटिंग / बैठक",
+    "category": "admin",
+    "level": 1
+  },
+  {
+    "id": "core-103",
+    "en": "instruction",
+    "hr": "uputa",
+    "hi": "निर्देश / हिदायत",
+    "category": "admin",
+    "level": 1
+  },
+  {
+    "id": "core-104",
+    "en": "training",
+    "hr": "obuka / trening",
+    "hi": "प्रशिक्षण",
+    "category": "admin",
+    "level": 2
+  },
+  {
+    "id": "core-105",
+    "en": "checklist",
+    "hr": "kontrolni popis",
+    "hi": "चेकलिस्ट / जाँच सूची",
+    "category": "admin",
+    "level": 2
+  },
+  {
+    "id": "core-106",
+    "en": "report",
+    "hr": "izvještaj",
+    "hi": "रिपोर्ट / विवरण",
+    "category": "admin",
+    "level": 2
+  },
+  {
+    "id": "core-107",
+    "en": "logbook",
+    "hr": "dnevnik radova",
+    "hi": "लॉगबुक / कार्य-दिनांक पुस्तिका",
+    "category": "admin",
+    "level": 3
+  },
+  {
+    "id": "core-108",
+    "en": "risk",
+    "hr": "rizik",
+    "hi": "जोखिम",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-109",
+    "en": "assessment",
+    "hr": "procjena",
+    "hi": "आकलन / मूल्यांकन",
+    "category": "safety",
+    "level": 2
+  },
+  {
+    "id": "core-110",
+    "en": "control measure",
+    "hr": "zaštitna mjera",
+    "hi": "नियंत्रण उपाय / सुरक्षा उपाय",
+    "category": "safety",
+    "level": 2
+  },
+  {
+    "id": "core-111",
+    "en": "first aid",
+    "hr": "prva pomoć",
+    "hi": "प्राथमिक उपचार",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-112",
+    "en": "emergency",
+    "hr": "izvanredna situacija / hitan slučaj",
+    "hi": "आपात स्थिति",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-113",
+    "en": "evacuation",
+    "hr": "evakuacija",
+    "hi": "निकासी / सुरक्षित बाहर निकालना",
+    "category": "safety",
+    "level": 2
+  },
+  {
+    "id": "core-114",
+    "en": "dust",
+    "hr": "prašina",
+    "hi": "धूल",
+    "category": "environment",
+    "level": 1
+  },
+  {
+    "id": "core-115",
+    "en": "noise",
+    "hr": "buka",
+    "hi": "शोर",
+    "category": "environment",
+    "level": 1
+  },
+  {
+    "id": "core-116",
+    "en": "earplugs",
+    "hr": "čepići za uši",
+    "hi": "कान में लगाने वाले प्लग",
+    "category": "environment",
+    "level": 2
+  },
+  {
+    "id": "core-117",
+    "en": "respirator",
+    "hr": "respirator / zaštitna maska",
+    "hi": "रेस्पिरेटर / श्वसन मास्क",
+    "category": "environment",
+    "level": 2
+  },
+  {
+    "id": "core-118",
+    "en": "fall protection",
+    "hr": "zaštita od pada",
+    "hi": "गिरने से सुरक्षा",
+    "category": "safety",
+    "level": 2
+  },
+  {
+    "id": "core-119",
+    "en": "slip",
+    "hr": "poskliznuće",
+    "hi": "फिसलना",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-120",
+    "en": "trip",
+    "hr": "spoticanje",
+    "hi": "ठोकर लगना",
+    "category": "safety",
+    "level": 1
+  },
+  {
+    "id": "core-121",
+    "en": "electric shock",
+    "hr": "strujni udar",
+    "hi": "बिजली का झटका",
+    "category": "safety",
+    "level": 2
+  },
+  {
+    "id": "core-122",
+    "en": "housekeeping",
+    "hr": "održavanje reda na gradilištu",
+    "hi": "सफाई व व्यवस्थापन (हाउसकीपिंग)",
+    "category": "safety",
+    "level": 2
+  }
+]
