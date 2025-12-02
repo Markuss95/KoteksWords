@@ -36,6 +36,22 @@
   color: #f5f7ff;
 }
 
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo-mark {
+  height: 78px;
+  max-width: 320px;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.35));
+  margin-top: 24px;
+}
+
 .lede {
   margin: 8px 0 0 0;
   color: #d9e2ff;

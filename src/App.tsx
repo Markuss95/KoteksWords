@@ -204,14 +204,13 @@ function App() {
   return (
     <div className="page">
       <header className="hero">
-        <div>
-          <p className="eyebrow">Osijek-KOTEKS d.d.</p>
-          <h1>Core Croatian construction site words</h1>
-          <p className="lede">
-            Quick, friendly glossary for foreign workers on our construction sites. Filter by topic,
-            learn the sound, and share a short usage line for faster onboarding.
-          </p>
+        <div className="brand-row">
+          <div>
+            <p className="eyebrow">Osijek-KOTEKS d.d.</p>
+            <h1>Core Croatian construction site words</h1>
+          </div>
         </div>
+ 
       </header>
 
       <section className="panel">
@@ -221,7 +220,7 @@ function App() {
             <input
               id="search"
               type="search"
-              placeholder="Try “ljestve”, “ladder”, or “safety”"
+              placeholder='Try "ljestve", "ladder", or "safety"'
               value={query}
               onChange={(event) => setQuery(event.target.value)}
             />
@@ -245,7 +244,7 @@ function App() {
           <div className="translation-row">
             <div className="translation-meta">
               <p className="filter-label">Translation language</p>
-              <p className="hint">Switch to preferred translation language.</p>
+              <p className="hint">Switch to Hindi when crews prefer it.</p>
             </div>
             <select
               value={translation}
