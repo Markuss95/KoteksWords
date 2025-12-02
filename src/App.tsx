@@ -6,7 +6,10 @@ type WordEntry = {
   id: string
   en: string
   hr: string
-  hi: string
+  hi?: string
+  ta?: string
+  te?: string
+  bn?: string
   category: string
   level?: number
 }
@@ -26,6 +29,9 @@ const categories = [
 const translationOptions = [
   { key: 'en', label: 'English' },
   { key: 'hi', label: 'Hindi' },
+  { key: 'ta', label: 'Tamil' },
+  { key: 'te', label: 'Telugu' },
+  { key: 'bn', label: 'Bengali' },
 ] as const
 
 type TranslationKey = (typeof translationOptions)[number]['key']
@@ -41,7 +47,7 @@ function App() {
       const matchesCategory = activeCategory === 'All' || word.category === activeCategory
       if (!normalizedQuery) return matchesCategory
 
-      const searchable = [word.hr, word.en, word.hi]
+      const searchable = [word.hr, word.en, word.hi, word.ta, word.te, word.bn]
         .filter(Boolean)
         .join(' ')
         .toLowerCase()
@@ -114,7 +120,13 @@ function App() {
                 <span className="badge">{formatCategoryLabel(word.category)}</span>
               </div>
               <h3>{word.hr}</h3>
-              <p className="english">{word[translation]}</p>
+              <p className="english">
+                {word[translation]?.trim()
+                  ? word[translation]
+                  : word.en?.trim()
+                    ? word.en
+                    : '—'}
+              </p>
             </article>
           ))}
         </div>

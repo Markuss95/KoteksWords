@@ -5,7 +5,10 @@
     "hr": "gradnja / građevina",
     "hi": "निर्माण",
     "category": "general",
-    "level": 1
+    "level": 1,
+    "ta": "கட்டிடம் வேலை",
+    "te": "నిర్మాణం",
+    "bn": "নির্মাণ"
   },
   {
     "id": "core-002",
@@ -13,7 +16,10 @@
     "hr": "radnik",
     "hi": "मज़दूर / कर्मचारी",
     "category": "general",
-    "level": 1
+    "level": 1,
+    "ta": "தொழிலாளி",
+    "te": "కార్మికుడు",
+    "bn": "শ্রমিক"
   },
   {
     "id": "core-003",
@@ -21,7 +27,10 @@
     "hr": "gradilište",
     "hi": "निर्माण स्थल",
     "category": "general",
-    "level": 1
+    "level": 1,
+    "ta": "தொழில்தளம் / பணித்தளம்",
+    "te": "పని స్థలం",
+    "bn": "স্থল / কর্মস্থল"
   },
   {
     "id": "core-004",
@@ -29,7 +38,10 @@
     "hr": "sigurnost",
     "hi": "सुरक्षा",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "பாதுகாப்பு",
+    "te": "భద్రత",
+    "bn": "নিরাপত্তা"
   },
   {
     "id": "core-005",
@@ -37,7 +49,10 @@
     "hr": "kaciga",
     "hi": "हेलमेट",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "தலைக்கவசம்",
+    "te": "హెల్మెట్",
+    "bn": "হেলমেট"
   },
   {
     "id": "core-006",
@@ -45,7 +60,10 @@
     "hr": "zaštitne naočale",
     "hi": "सुरक्षा चश्मा",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "பாதுகாப்புக் கண்ணாடி",
+    "te": "రక్షణ కళ్లజోడు",
+    "bn": "সুরক্ষিত চশমা"
   },
   {
     "id": "core-007",
@@ -53,7 +71,10 @@
     "hr": "rukavice",
     "hi": "दस्ताने",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "கையுறைகள்",
+    "te": "గ్లవ్స్",
+    "bn": "দস্তানা"
   },
   {
     "id": "core-008",
@@ -61,7 +82,10 @@
     "hr": "zaštitne čizme",
     "hi": "सुरक्षात्मक जूते",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "பாதுகாப்பு பூட்ஸ்",
+    "te": "రక్షణ బూట్లు",
+    "bn": "সুরক্ষামূলক বুট"
   },
   {
     "id": "core-009",
@@ -69,7 +93,10 @@
     "hr": "reflektirajući prsluk",
     "hi": "प्रतिबिंबित जैकेट",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "பிரதிபலிக்கும் மேலங்கி",
+    "te": "ప్రతిబింబించే జాకెట్",
+    "bn": "প্রতিফলক জ্যাকেট"
   },
   {
     "id": "core-010",
@@ -77,7 +104,10 @@
     "hr": "ljestve",
     "hi": "सीढ़ी",
     "category": "access",
-    "level": 1
+    "level": 1,
+    "ta": "ஏணி",
+    "te": "ఎక్కే మెట్టులు",
+    "bn": "সিঁড়ি"
   },
   {
     "id": "core-011",
@@ -85,7 +115,10 @@
     "hr": "skela",
     "hi": "मचान",
     "category": "access",
-    "level": 2
+    "level": 2,
+    "ta": "மேடைகட்டிடம் / ஸ்காஃஃபோல்டு",
+    "te": "స్కాఫోల్డింగ్",
+    "bn": "স্ক্যাফল্ড"
   },
   {
     "id": "core-012",
@@ -93,7 +126,10 @@
     "hr": "sigurnosni pojas",
     "hi": "सुरक्षा पट्टा",
     "category": "safety",
-    "level": 2
+    "level": 2,
+    "ta": "பாதுகாப்பு பட்டா",
+    "te": "భద్రత బెల్ట్ / హార్నెస్",
+    "bn": "নিরাপত্তা বেল্ট"
   },
   {
     "id": "core-013",
@@ -101,7 +137,10 @@
     "hr": "zaštitna ograda",
     "hi": "रैलिंग / किनारा सुरक्षा",
     "category": "safety",
-    "level": 2
+    "level": 2,
+    "ta": "பாதுகாப்பு வேலி",
+    "te": "రక్షణ రైలింగ్",
+    "bn": "নিরাপত্তা রেলিং"
   },
   {
     "id": "core-014",
@@ -109,7 +148,10 @@
     "hr": "opasnost",
     "hi": "जोखिम / ख़तरा",
     "category": "safety",
-    "level": 2
+    "level": 2,
+    "ta": "ஆபத்து",
+    "te": "ప్రమాదం",
+    "bn": "ঝুঁকি / বিপদ"
   },
   {
     "id": "core-015",
@@ -117,7 +159,10 @@
     "hr": "upozorenje",
     "hi": "चेतावनी",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "எச்சரிக்கை",
+    "te": "హెచ్చరిక",
+    "bn": "সতর্কতা"
   },
   {
     "id": "core-016",
@@ -125,7 +170,10 @@
     "hr": "kutija s alatom",
     "hi": "औज़ार का डिब्बा",
     "category": "tools",
-    "level": 1
+    "level": 1,
+    "ta": "கருவிப்பெட்டி",
+    "te": "పరికర పెట్టె",
+    "bn": "সরঞ্জামের বাক্স"
   },
   {
     "id": "core-017",
@@ -133,7 +181,10 @@
     "hr": "bušilica",
     "hi": "ड्रिल मशीन",
     "category": "tools",
-    "level": 1
+    "level": 1,
+    "ta": "டிரில்",
+    "te": "డ్రిల్",
+    "bn": "ড্রিল"
   },
   {
     "id": "core-018",
@@ -141,7 +192,10 @@
     "hr": "čekić",
     "hi": "हथौड़ा",
     "category": "tools",
-    "level": 1
+    "level": 1,
+    "ta": "சுத்தி",
+    "te": "సుత్తి",
+    "bn": "হাতুড়ি"
   },
   {
     "id": "core-019",
@@ -149,7 +203,10 @@
     "hr": "odvijač",
     "hi": "पेचकस",
     "category": "tools",
-    "level": 1
+    "level": 1,
+    "ta": "திருகுப்பிடி",
+    "te": "స్క్రూడ్రైవర్",
+    "bn": "পেচকস"
   },
   {
     "id": "core-020",
@@ -157,7 +214,10 @@
     "hr": "ključ",
     "hi": "रेन्च / चाबी",
     "category": "tools",
-    "level": 1
+    "level": 1,
+    "ta": "ரெஞ்சு",
+    "te": "రెంచ్",
+    "bn": "রেঞ্চ"
   },
   {
     "id": "core-021",
@@ -165,7 +225,10 @@
     "hr": "kliješta",
     "hi": "प्लायर",
     "category": "tools",
-    "level": 1
+    "level": 1,
+    "ta": "பிளையர்",
+    "te": "ప్లయిర్లు",
+    "bn": "প্লায়ার্স"
   },
   {
     "id": "core-022",
@@ -173,7 +236,10 @@
     "hr": "pila",
     "hi": "आरी",
     "category": "tools",
-    "level": 1
+    "level": 1,
+    "ta": "ரம்பம்",
+    "te": "రంపం",
+    "bn": "করাত"
   },
   {
     "id": "core-023",
@@ -181,7 +247,10 @@
     "hr": "gleter / žlica za žbuku",
     "hi": "गारा फैलाने की करछी (ट्रॉवेल)",
     "category": "tools",
-    "level": 2
+    "level": 2,
+    "ta": "டிரவல்",
+    "te": "ట్రోవెల్",
+    "bn": "ট্রওয়েল"
   },
   {
     "id": "core-024",
@@ -189,7 +258,10 @@
     "hr": "libela",
     "hi": "लेवल / समतल यंत्र",
     "category": "tools",
-    "level": 2
+    "level": 2,
+    "ta": "லெவல் கருவி",
+    "te": "లెవల్ పరికరం",
+    "bn": "লেভেল"
   },
   {
     "id": "core-025",
@@ -197,7 +269,10 @@
     "hr": "metar / mjerna traka",
     "hi": "फीता / मापने की टेप",
     "category": "tools",
-    "level": 1
+    "level": 1,
+    "ta": "அளவுகோல் டேப்",
+    "te": "కొలత టేప్",
+    "bn": "মাপার টেপ"
   },
   {
     "id": "core-026",
@@ -205,7 +280,10 @@
     "hr": "lopata",
     "hi": "फावड़ा",
     "category": "tools",
-    "level": 1
+    "level": 1,
+    "ta": "கரண்டி / செவல்",
+    "te": "గొయ్యె",
+    "bn": "কোদাল"
   },
   {
     "id": "core-027",
@@ -213,7 +291,10 @@
     "hr": "tačke",
     "hi": "ठेला / व्हीलबैरो",
     "category": "tools",
-    "level": 2
+    "level": 2,
+    "ta": "சக்கர வண்டி",
+    "te": "వీల్‌బారో",
+    "bn": "হুইলব্যারো"
   },
   {
     "id": "core-028",
@@ -221,7 +302,10 @@
     "hr": "generator / agregat",
     "hi": "जनरेटर",
     "category": "equipment",
-    "level": 2
+    "level": 2,
+    "ta": "ஜெனரேட்டர்",
+    "te": "జనరేటర్",
+    "bn": "জেনারেটর"
   },
   {
     "id": "core-029",
@@ -229,7 +313,10 @@
     "hr": "kompresor",
     "hi": "कम्प्रेसर",
     "category": "equipment",
-    "level": 2
+    "level": 2,
+    "ta": "கம்ப்ரசர்",
+    "te": "కంప్రెసర్",
+    "bn": "কম্প্রেসর"
   },
   {
     "id": "core-030",
@@ -237,7 +324,10 @@
     "hr": "pneumatski čekić",
     "hi": "जैकहैमर / न्यूमेटिक हथौड़ा",
     "category": "equipment",
-    "level": 3
+    "level": 3,
+    "ta": "ஜாக்ஹாமர்",
+    "te": "జాక్‌హ్యామర్",
+    "bn": "জ্যাকহ্যামার"
   },
   {
     "id": "core-031",
@@ -245,7 +335,10 @@
     "hr": "bager",
     "hi": "खुदाई मशीन (एक्स्कावेटर)",
     "category": "equipment",
-    "level": 2
+    "level": 2,
+    "ta": "எக்ஸ்கவేటర్",
+    "te": "ఎక్స్కవేటర్",
+    "bn": "এক্সকাভেটর"
   },
   {
     "id": "core-032",
@@ -253,7 +346,10 @@
     "hr": "buldožer",
     "hi": "बुलडोज़र",
     "category": "equipment",
-    "level": 2
+    "level": 2,
+    "ta": "புல்டோசர்",
+    "te": "బుల్డోజర్",
+    "bn": "বুলডোজার"
   },
   {
     "id": "core-033",
@@ -261,7 +357,10 @@
     "hr": "utovarivač",
     "hi": "लोडर",
     "category": "equipment",
-    "level": 2
+    "level": 2,
+    "ta": "லோடர்",
+    "te": "లోడర్",
+    "bn": "লোডার"
   },
   {
     "id": "core-034",
@@ -269,7 +368,10 @@
     "hr": "dizalica",
     "hi": "क्रेन",
     "category": "equipment",
-    "level": 2
+    "level": 2,
+    "ta": "கிரேன்",
+    "te": "క్రేన్",
+    "bn": "ক্রেন"
   },
   {
     "id": "core-035",
@@ -277,7 +379,10 @@
     "hr": "rovokopač",
     "hi": "बैकहो मशीन",
     "category": "equipment",
-    "level": 3
+    "level": 3,
+    "ta": "பேக்கோ",
+    "te": "బ్యాక్‌హో",
+    "bn": "ব্যাকহো"
   },
   {
     "id": "core-036",
@@ -285,7 +390,10 @@
     "hr": "grejder",
     "hi": "ग्रेडर",
     "category": "equipment",
-    "level": 3
+    "level": 3,
+    "ta": "கிரேடர்",
+    "te": "గ్రేడర్",
+    "bn": "গ্রেডার"
   },
   {
     "id": "core-037",
@@ -293,7 +401,10 @@
     "hr": "viljuškar",
     "hi": "फोर्कलिफ्ट",
     "category": "equipment",
-    "level": 2
+    "level": 2,
+    "ta": "ஃபோர்க்லிஃப்ட்",
+    "te": "ఫోర్క్‌లిఫ్ట్",
+    "bn": "ফর্কলিফ্ট"
   },
   {
     "id": "core-038",
@@ -301,7 +412,10 @@
     "hr": "valjak",
     "hi": "रोड रोलर",
     "category": "equipment",
-    "level": 2
+    "level": 2,
+    "ta": "ரோலர்",
+    "te": "రోలర్",
+    "bn": "রোলার"
   },
   {
     "id": "core-039",
@@ -309,7 +423,10 @@
     "hr": "beton",
     "hi": "कंक्रीट",
     "category": "materials",
-    "level": 1
+    "level": 1,
+    "ta": "கான்கிரீட்",
+    "te": "కాంక్రీట్",
+    "bn": "কংক্রিট"
   },
   {
     "id": "core-040",
@@ -317,7 +434,10 @@
     "hr": "cement",
     "hi": "सीमेंट",
     "category": "materials",
-    "level": 1
+    "level": 1,
+    "ta": "சிமென்ட்",
+    "te": "సిమెంట్",
+    "bn": "সিমেন্ট"
   },
   {
     "id": "core-041",
@@ -325,7 +445,10 @@
     "hr": "mort / žbuka",
     "hi": "गारा / मसाला",
     "category": "materials",
-    "level": 2
+    "level": 2,
+    "ta": "சுண்ணாம்பு கலவை",
+    "te": "మోర్టార్",
+    "bn": "মর্টার"
   },
   {
     "id": "core-042",
@@ -333,7 +456,10 @@
     "hr": "pijesak",
     "hi": "रेत",
     "category": "materials",
-    "level": 1
+    "level": 1,
+    "ta": "மணல்",
+    "te": "మట్టి ఇసుక",
+    "bn": "বালি"
   },
   {
     "id": "core-043",
@@ -341,7 +467,10 @@
     "hr": "šljunak",
     "hi": "बजरी / गिट्टी",
     "category": "materials",
-    "level": 1
+    "level": 1,
+    "ta": "கற்கள் (கிராவல்)",
+    "te": "గ్రావెల్",
+    "bn": "খোয়া পাথর"
   },
   {
     "id": "core-044",
@@ -349,7 +478,10 @@
     "hr": "asfalt",
     "hi": "डामर / एस्फाल्ट",
     "category": "materials",
-    "level": 2
+    "level": 2,
+    "ta": "அஸ்பால்ட்",
+    "te": "అస్ఫాల్ట్",
+    "bn": "অ্যাসফল্ট"
   },
   {
     "id": "core-045",
@@ -357,7 +489,10 @@
     "hr": "armatura",
     "hi": "सरीया / स्टील रॉड",
     "category": "materials",
-    "level": 2
+    "level": 2,
+    "ta": "இரும்புக்கம்பி",
+    "te": "రీఇన్ఫోర్స్మెంట్ స్టీల్ (రिबार్)",
+    "bn": "রিবার / স্টিল রড"
   },
   {
     "id": "core-046",
@@ -365,7 +500,10 @@
     "hr": "oplata / šalung",
     "hi": "फॉर्मवर्क / सांचाबंदी",
     "category": "structure",
-    "level": 2
+    "level": 2,
+    "ta": "படிவமைப்பு (பார்ம்வொர்க்)",
+    "te": "ఫార్మ్‌వర్క్",
+    "bn": "ফর্মওয়ার্ক"
   },
   {
     "id": "core-047",
@@ -373,7 +511,10 @@
     "hr": "greda",
     "hi": "बीम",
     "category": "structure",
-    "level": 1
+    "level": 1,
+    "ta": "தண்டு / பீம்",
+    "te": "బీమ్",
+    "bn": "বিম"
   },
   {
     "id": "core-048",
@@ -381,7 +522,10 @@
     "hr": "stup",
     "hi": "स्तंभ",
     "category": "structure",
-    "level": 1
+    "level": 1,
+    "ta": "தூண்",
+    "te": "కాలమ్",
+    "bn": "কলাম / স্তম্ভ"
   },
   {
     "id": "core-049",
@@ -389,7 +533,10 @@
     "hr": "ploča",
     "hi": "स्लैब",
     "category": "structure",
-    "level": 1
+    "level": 1,
+    "ta": "ச்லாப்",
+    "te": "స్లాబ్",
+    "bn": "স্ল্যাব"
   },
   {
     "id": "core-050",
@@ -397,7 +544,10 @@
     "hr": "stopa",
     "hi": "फुटिंग",
     "category": "structure",
-    "level": 2
+    "level": 2,
+    "ta": "அடித்தளம் (ஃபூட்டிங்)",
+    "te": "ఫూటింగ్",
+    "bn": "ফুটিং"
   },
   {
     "id": "core-051",
@@ -405,7 +555,10 @@
     "hr": "temelj",
     "hi": "नींव",
     "category": "structure",
-    "level": 1
+    "level": 1,
+    "ta": "அடித்தளம்",
+    "te": "ఫౌండేషన్",
+    "bn": "ভিত্তি"
   },
   {
     "id": "core-052",
@@ -413,7 +566,10 @@
     "hr": "rov",
     "hi": "खाई / खंदक",
     "category": "earthworks",
-    "level": 2
+    "level": 2,
+    "ta": "குழி / பள்ளம்",
+    "te": "కందకం / ట్రెంచ్",
+    "bn": "খাল / খাদ"
   },
   {
     "id": "core-053",
@@ -421,15 +577,21 @@
     "hr": "nasip / zasip",
     "hi": "बैकफिल / भराई",
     "category": "earthworks",
-    "level": 2
+    "level": 2,
+    "ta": "நிரப்புதல் (பேக்க்ஃபில்)",
+    "te": "బ్యాక్‌ఫిల్",
+    "bn": "ব্যাকফিল / পূরণ"
   },
   {
     "id": "core-054",
     "en": "compaction",
     "hr": "zbijanje",
-    "hi": "संपीड़न / दबाव देकर बैठाना",
+    "hi": "संपीड़न",
     "category": "earthworks",
-    "level": 2
+    "level": 2,
+    "ta": "அடர்த்திப்படுத்தல்",
+    "te": "కాంపాక్షన్",
+    "bn": "সংকোচন"
   },
   {
     "id": "core-055",
@@ -437,7 +599,10 @@
     "hr": "cigla",
     "hi": "ईंट",
     "category": "materials",
-    "level": 1
+    "level": 1,
+    "ta": "சிறுபலகை / செங்கல்",
+    "te": "ఇటుక",
+    "bn": "ইট"
   },
   {
     "id": "core-056",
@@ -445,47 +610,65 @@
     "hr": "betonski blok",
     "hi": "कंक्रीट ब्लॉक",
     "category": "materials",
-    "level": 1
+    "level": 1,
+    "ta": "கட்டிடம் கல் (பிளாக்)",
+    "te": "బ్లాక్",
+    "bn": "ব্লক"
   },
   {
     "id": "core-057",
     "en": "masonry",
     "hr": "zidanje / zidarija",
-    "hi": "ईंट का काम (मेसनरी)",
+    "hi": "ईंट का काम",
     "category": "materials",
-    "level": 2
+    "level": 2,
+    "ta": "கட்டிடக் கலை (மேசன்ரி)",
+    "te": "మేసనరీ",
+    "bn": "রাজমিস্ত্রি কাজ (মেসনারি)"
   },
   {
     "id": "core-058",
     "en": "tile",
     "hr": "pločica / crijep",
-    "hi": "टाइल / कड़ा",
+    "hi": "टाइल",
     "category": "materials",
-    "level": 1
+    "level": 1,
+    "ta": "டைல்",
+    "te": "టైల్",
+    "bn": "টাইল"
   },
   {
     "id": "core-059",
     "en": "drywall",
     "hr": "knauf ploča / gips-karton",
-    "hi": "ड्रायवॉल / जिप्सम बोर्ड",
+    "hi": "ड्रायवॉल",
     "category": "materials",
-    "level": 3
+    "level": 3,
+    "ta": "டிரைவால்",
+    "te": "డ్రైవాల్",
+    "bn": "ড্রাইওয়াল"
   },
   {
     "id": "core-060",
     "en": "insulation",
     "hr": "izolacija",
-    "hi": "इन्सुलेशन / रोधन",
+    "hi": "इन्सुलेशन",
     "category": "materials",
-    "level": 2
+    "level": 2,
+    "ta": "ஒதுக்கி / இன்சுலேஷன்",
+    "te": "ఇన్సులేషన్",
+    "bn": "ইনসুলেশন"
   },
   {
     "id": "core-061",
     "en": "roof",
     "hr": "krov",
-    "hi": "छत / छप्पर",
+    "hi": "छत",
     "category": "structure",
-    "level": 1
+    "level": 1,
+    "ta": "மேல் கூரை",
+    "te": "కప్పు",
+    "bn": "ছাদ"
   },
   {
     "id": "core-062",
@@ -493,23 +676,32 @@
     "hr": "hidroizolacija",
     "hi": "वाटरप्रूफिंग / जलरोधन",
     "category": "materials",
-    "level": 3
+    "level": 3,
+    "ta": "நீர்ப்புகா அமைப்பு",
+    "te": "వాటర్‌ప్రూఫింగ్",
+    "bn": "ওয়াটারপ্রুফিং"
   },
   {
     "id": "core-063",
     "en": "sealant",
     "hr": "brtvilo / silikon",
-    "hi": "सीलेंट / सील करने वाला पदार्थ",
+    "hi": "सीलेंट",
     "category": "materials",
-    "level": 3
+    "level": 3,
+    "ta": "மூடுபொருள் (சீலண்ட்)",
+    "te": "సీలెంట్",
+    "bn": "সিল্যান্ট"
   },
   {
     "id": "core-064",
     "en": "steel",
     "hr": "čelik",
-    "hi": "स्टील / इस्पात",
+    "hi": "स्टील",
     "category": "materials",
-    "level": 1
+    "level": 1,
+    "ta": "எஃகு",
+    "te": "స్టీల్",
+    "bn": "ইস্পাত"
   },
   {
     "id": "core-065",
@@ -517,7 +709,10 @@
     "hr": "drvo / drvena građa",
     "hi": "लकड़ी / टिम्बर",
     "category": "materials",
-    "level": 1
+    "level": 1,
+    "ta": "மரம் / டிம்பர்",
+    "te": "టింబర్",
+    "bn": "টিম্বার / কাঠ"
   },
   {
     "id": "core-066",
@@ -525,15 +720,21 @@
     "hr": "šperploča",
     "hi": "प्लाईवुड",
     "category": "materials",
-    "level": 2
+    "level": 2,
+    "ta": "ப்ளைவுட்",
+    "te": "ప్లైవుడ్",
+    "bn": "প্লাইউড"
   },
   {
     "id": "core-067",
     "en": "anchor",
     "hr": "anker / sidro",
-    "hi": "एंकर / पकड़ने वाला बोल्ट",
+    "hi": "एंकर",
     "category": "fixings",
-    "level": 2
+    "level": 2,
+    "ta": "ஆங்கர்",
+    "te": "యాంకర్",
+    "bn": "অ্যাঙ্কর"
   },
   {
     "id": "core-068",
@@ -541,7 +742,10 @@
     "hr": "vijak",
     "hi": "बोल्ट",
     "category": "fixings",
-    "level": 1
+    "level": 1,
+    "ta": "போல்ட்",
+    "te": "బోల్ట్",
+    "bn": "বোল্ট"
   },
   {
     "id": "core-069",
@@ -549,7 +753,10 @@
     "hr": "matica",
     "hi": "नट",
     "category": "fixings",
-    "level": 1
+    "level": 1,
+    "ta": "நட்",
+    "te": "నట్",
+    "bn": "নাট"
   },
   {
     "id": "core-070",
@@ -557,7 +764,10 @@
     "hr": "vijak / šaraf",
     "hi": "पेंच / स्क्रू",
     "category": "fixings",
-    "level": 1
+    "level": 1,
+    "ta": "திருகு (ஸ்க்ரூ)",
+    "te": "స్క్రూ",
+    "bn": "স্ক্রু"
   },
   {
     "id": "core-071",
@@ -565,7 +775,10 @@
     "hr": "čavao",
     "hi": "कील",
     "category": "fixings",
-    "level": 1
+    "level": 1,
+    "ta": "ஆணி",
+    "te": "మేకి",
+    "bn": "পেরেক"
   },
   {
     "id": "core-072",
@@ -573,7 +786,10 @@
     "hr": "kabel",
     "hi": "केबल",
     "category": "electrical",
-    "level": 1
+    "level": 1,
+    "ta": "கேபிள்",
+    "te": "కేబుల్",
+    "bn": "কেবল"
   },
   {
     "id": "core-073",
@@ -581,7 +797,10 @@
     "hr": "žica",
     "hi": "तार",
     "category": "electrical",
-    "level": 1
+    "level": 1,
+    "ta": "கம்பி",
+    "te": "వైర్",
+    "bn": "তার"
   },
   {
     "id": "core-074",
@@ -589,15 +808,21 @@
     "hr": "cijev",
     "hi": "पाइप",
     "category": "plumbing",
-    "level": 1
+    "level": 1,
+    "ta": "குழாய்",
+    "te": "పైపు",
+    "bn": "পাইপ"
   },
   {
     "id": "core-075",
     "en": "valve",
     "hr": "ventil",
-    "hi": "वाल्व / नल",
+    "hi": "वाल्व",
     "category": "plumbing",
-    "level": 2
+    "level": 2,
+    "ta": "வால்வு",
+    "te": "వాల్వ్",
+    "bn": "ভালভ"
   },
   {
     "id": "core-076",
@@ -605,7 +830,10 @@
     "hr": "pumpa",
     "hi": "पम्प",
     "category": "plumbing",
-    "level": 2
+    "level": 2,
+    "ta": "பம்ப்",
+    "te": "పంప్",
+    "bn": "পাম্প"
   },
   {
     "id": "core-077",
@@ -613,15 +841,21 @@
     "hr": "prekidač",
     "hi": "स्विच",
     "category": "electrical",
-    "level": 1
+    "level": 1,
+    "ta": "சுவிட்ச்",
+    "te": "స్విచ్",
+    "bn": "সুইচ"
   },
   {
     "id": "core-078",
     "en": "socket",
     "hr": "utičnica",
-    "hi": "सॉकेट / प्लग पॉइंट",
+    "hi": "सॉकेट",
     "category": "electrical",
-    "level": 1
+    "level": 1,
+    "ta": "சாக்கெட்",
+    "te": "సాకెట్",
+    "bn": "সকেট"
   },
   {
     "id": "core-079",
@@ -629,15 +863,21 @@
     "hr": "osigurač / sklopka",
     "hi": "ब्रेक़र / एमसीबी",
     "category": "electrical",
-    "level": 2
+    "level": 2,
+    "ta": "பிரேக்கர்",
+    "te": "బ్రేకర్",
+    "bn": "ব্রেকার"
   },
   {
     "id": "core-080",
     "en": "plan",
     "hr": "plan",
-    "hi": "प्लान / योजना",
+    "hi": "प्लान",
     "category": "drawings",
-    "level": 1
+    "level": 1,
+    "ta": "திட்டம்",
+    "te": "ప్లాన్",
+    "bn": "প্ল্যান"
   },
   {
     "id": "core-081",
@@ -645,7 +885,10 @@
     "hr": "nacrt / crtež",
     "hi": "ड्रॉइंग / नक़्शा",
     "category": "drawings",
-    "level": 1
+    "level": 1,
+    "ta": "வரைபடம்",
+    "te": "డ్రాయింగ్",
+    "bn": "ড্রয়িং"
   },
   {
     "id": "core-082",
@@ -653,15 +896,21 @@
     "hr": "presjek",
     "hi": "सेक्शन / कटाव",
     "category": "drawings",
-    "level": 2
+    "level": 2,
+    "ta": "பகுதி வரைபடம் (செக்ஷன்)",
+    "te": "సెక్షన్",
+    "bn": "সেকশন"
   },
   {
     "id": "core-083",
     "en": "elevation",
     "hr": "pročelje / fasadni nacrt",
-    "hi": "एलिवेशन / ऊर्ध्वदृश्य",
+    "hi": "एलिवेशन",
     "category": "drawings",
-    "level": 2
+    "level": 2,
+    "ta": "எலிவேஷன்",
+    "te": "ఎలివేషన్",
+    "bn": "এলিভেশন"
   },
   {
     "id": "core-084",
@@ -669,7 +918,10 @@
     "hr": "detalj",
     "hi": "विवरण / डिटेल",
     "category": "drawings",
-    "level": 2
+    "level": 2,
+    "ta": "விவரம்",
+    "te": "వివరం",
+    "bn": "বিবরণ"
   },
   {
     "id": "core-085",
@@ -677,7 +929,10 @@
     "hr": "dimenzija",
     "hi": "आकार / माप (डायमेंशन)",
     "category": "drawings",
-    "level": 2
+    "level": 2,
+    "ta": "அளவு",
+    "te": "కొలత",
+    "bn": "মাত্রা"
   },
   {
     "id": "core-086",
@@ -685,7 +940,10 @@
     "hr": "mjerilo",
     "hi": "स्केल / मापमान",
     "category": "drawings",
-    "level": 2
+    "level": 2,
+    "ta": "அளவுகோல்",
+    "te": "ప్రమాణం",
+    "bn": "স্কেল"
   },
   {
     "id": "core-087",
@@ -693,7 +951,10 @@
     "hr": "geodetsko snimanje / izmjera",
     "hi": "सर्वे / माप सर्वेक्षण",
     "category": "survey",
-    "level": 2
+    "level": 2,
+    "ta": "சர்வே",
+    "te": "సర్వే",
+    "bn": "সার্ভে"
   },
   {
     "id": "core-088",
@@ -701,7 +962,10 @@
     "hr": "iskolčenje",
     "hi": "स्टेकआउट / साइट पर निशान लगाना",
     "category": "survey",
-    "level": 3
+    "level": 3,
+    "ta": "ஸ்டேக் அவுட்",
+    "te": "స్టేక్‌ఔట్",
+    "bn": "স্টেকআউট"
   },
   {
     "id": "core-089",
@@ -709,7 +973,10 @@
     "hr": "niveleta / nagib",
     "hi": "ग्रेड / ढाल",
     "category": "survey",
-    "level": 2
+    "level": 2,
+    "ta": "சாய்வு",
+    "te": "గ్రేడ్",
+    "bn": "ঢাল"
   },
   {
     "id": "core-090",
@@ -717,7 +984,10 @@
     "hr": "trasiranje / poravnanje",
     "hi": "अलाइनमेंट / सीध",
     "category": "survey",
-    "level": 2
+    "level": 2,
+    "ta": "சீரமைப்பு",
+    "te": "అలైన్‌మెంట్",
+    "bn": "অ্যালাইনমেন্ট"
   },
   {
     "id": "core-091",
@@ -725,7 +995,10 @@
     "hr": "raspored / trasiranje",
     "hi": "लेआउट / नक़्शानुसार व्यवस्था",
     "category": "survey",
-    "level": 2
+    "level": 2,
+    "ta": "வடிவமைப்பு (லேஅவுட்)",
+    "te": "లేఅవుట్",
+    "bn": "লেআউট"
   },
   {
     "id": "core-092",
@@ -733,7 +1006,10 @@
     "hr": "tolerancija",
     "hi": "टॉलरेंस / सहनशील भिन्नता",
     "category": "general",
-    "level": 3
+    "level": 3,
+    "ta": "அனுமதி விலக்கம்",
+    "te": "టాలరెన్స్",
+    "bn": "টলারেন্স"
   },
   {
     "id": "core-093",
@@ -741,7 +1017,10 @@
     "hr": "ekipa / radna grupa",
     "hi": "टीम / दल",
     "category": "people",
-    "level": 1
+    "level": 1,
+    "ta": "பணிக்குழு",
+    "te": "పని బృందం",
+    "bn": "দল / ক্রু"
   },
   {
     "id": "core-094",
@@ -749,7 +1028,10 @@
     "hr": "poslovođa / šef gradilišta",
     "hi": "फोरमैन / मुखिया",
     "category": "people",
-    "level": 2
+    "level": 2,
+    "ta": "ஃபோர்மேன்",
+    "te": "ఫోర్‌మాన్",
+    "bn": "ফোরম্যান"
   },
   {
     "id": "core-095",
@@ -757,7 +1039,10 @@
     "hr": "nadzornik",
     "hi": "सुपरवाइज़र / निरीक्षक",
     "category": "people",
-    "level": 2
+    "level": 2,
+    "ta": "மேற்பார்வையாளர்",
+    "te": "పర్యవేక్షకుడు",
+    "bn": "তত্ত্বাবধায়ক"
   },
   {
     "id": "core-096",
@@ -765,7 +1050,10 @@
     "hr": "inženjer",
     "hi": "इंजीनियर",
     "category": "people",
-    "level": 2
+    "level": 2,
+    "ta": "பொறியாளர்",
+    "te": "ఇంజనీరు",
+    "bn": "প্রকৌশলী"
   },
   {
     "id": "core-097",
@@ -773,7 +1061,10 @@
     "hr": "arhitekt",
     "hi": "आर्किटेक्ट / वास्तुकार",
     "category": "people",
-    "level": 2
+    "level": 2,
+    "ta": "ஆர்கிடெக்ட்",
+    "te": "ఆర్కిటెక్ట్",
+    "bn": "স্থপতি"
   },
   {
     "id": "core-098",
@@ -781,7 +1072,10 @@
     "hr": "izvođač",
     "hi": "कॉन्ट्रैक्टर / ठेकेदार",
     "category": "people",
-    "level": 2
+    "level": 2,
+    "ta": "ஒப்பந்ததாரர்",
+    "te": "కాంట్రాక్టర్",
+    "bn": "ঠিকাদার"
   },
   {
     "id": "core-099",
@@ -789,7 +1083,10 @@
     "hr": "podizvođač",
     "hi": "सब-कॉन्ट्रैक्टर / उप-ठेकेदार",
     "category": "people",
-    "level": 3
+    "level": 3,
+    "ta": "உப ஒப்பந்ததாரர்",
+    "te": "సబ్‌కాంట్రాక్టర్",
+    "bn": "উপ-ঠিকাদার"
   },
   {
     "id": "core-100",
@@ -797,7 +1094,10 @@
     "hr": "pomoćni radnik",
     "hi": "मज़दूर / helper",
     "category": "people",
-    "level": 1
+    "level": 1,
+    "ta": "கூலி தொழிலாளி",
+    "te": "కూలీ కార్మికుడు",
+    "bn": "মজুর"
   },
   {
     "id": "core-101",
@@ -805,7 +1105,10 @@
     "hr": "šegrt / priučeni radnik",
     "hi": "प्रशिक्षु / अपरेंटिस",
     "category": "people",
-    "level": 2
+    "level": 2,
+    "ta": "பயிற்சி தொழிலாளி",
+    "te": "శిక్షణార్థి",
+    "bn": "শিক্ষানবিশ"
   },
   {
     "id": "core-102",
@@ -813,7 +1116,10 @@
     "hr": "sastanak",
     "hi": "मीटिंग / बैठक",
     "category": "admin",
-    "level": 1
+    "level": 1,
+    "ta": "கூட்டம்",
+    "te": "సమావేశం",
+    "bn": "মিটিং / বৈঠক"
   },
   {
     "id": "core-103",
@@ -821,7 +1127,10 @@
     "hr": "uputa",
     "hi": "निर्देश / हिदायत",
     "category": "admin",
-    "level": 1
+    "level": 1,
+    "ta": "வழிமுறை",
+    "te": "సూచన",
+    "bn": "নির্দেশ"
   },
   {
     "id": "core-104",
@@ -829,31 +1138,43 @@
     "hr": "obuka / trening",
     "hi": "प्रशिक्षण",
     "category": "admin",
-    "level": 2
+    "level": 2,
+    "ta": "பயிற்சி",
+    "te": "శిక్షణ",
+    "bn": "প্রশিক্ষণ"
   },
   {
     "id": "core-105",
     "en": "checklist",
     "hr": "kontrolni popis",
-    "hi": "चेकलिस्ट / जाँच सूची",
+    "hi": "चेकलिस्ट",
     "category": "admin",
-    "level": 2
+    "level": 2,
+    "ta": "சரிபார்ப்பு பட்டியல்",
+    "te": "తనిఖీ జాబితా",
+    "bn": "চেকলিস্ট"
   },
   {
     "id": "core-106",
     "en": "report",
     "hr": "izvještaj",
-    "hi": "रिपोर्ट / विवरण",
+    "hi": "रिपोर्ट",
     "category": "admin",
-    "level": 2
+    "level": 2,
+    "ta": "அறிக்கை",
+    "te": "నివేదిక",
+    "bn": "রিপোর্ট"
   },
   {
     "id": "core-107",
     "en": "logbook",
     "hr": "dnevnik radova",
-    "hi": "लॉगबुक / कार्य-दिनांक पुस्तिका",
+    "hi": "लॉगबुक",
     "category": "admin",
-    "level": 3
+    "level": 3,
+    "ta": "பதிவேடு",
+    "te": "లాగ్‌బుక్",
+    "bn": "লগবুক"
   },
   {
     "id": "core-108",
@@ -861,23 +1182,32 @@
     "hr": "rizik",
     "hi": "जोखिम",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "ஆபத்து",
+    "te": "ప్రమాదం",
+    "bn": "ঝুঁকি"
   },
   {
     "id": "core-109",
     "en": "assessment",
     "hr": "procjena",
-    "hi": "आकलन / मूल्यांकन",
+    "hi": "मूल्यांकन",
     "category": "safety",
-    "level": 2
+    "level": 2,
+    "ta": "மதிப்பீடு",
+    "te": "అంశాల పరిశీలన",
+    "bn": "মূল্যায়ন"
   },
   {
     "id": "core-110",
     "en": "control measure",
     "hr": "zaštitna mjera",
-    "hi": "नियंत्रण उपाय / सुरक्षा उपाय",
+    "hi": "नियंत्रण उपाय",
     "category": "safety",
-    "level": 2
+    "level": 2,
+    "ta": "கட்டுப்பாட்டு நடவடிக்கை",
+    "te": "నియంత్రణ చర్య",
+    "bn": "নিয়ন্ত্রণ ব্যবস্থা"
   },
   {
     "id": "core-111",
@@ -885,23 +1215,32 @@
     "hr": "prva pomoć",
     "hi": "प्राथमिक उपचार",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "முதலுதவி",
+    "te": "ఫస్ట్ ఎయిడ్",
+    "bn": "প্রাথমিক চিকিৎসা"
   },
   {
     "id": "core-112",
     "en": "emergency",
-    "hr": "izvanredna situacija / hitan slučaj",
+    "hr": "izvanredna situacija",
     "hi": "आपात स्थिति",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "அவசர நிலை",
+    "te": "అత్యవసర పరిస్థితి",
+    "bn": "জরুরি অবস্থা"
   },
   {
     "id": "core-113",
     "en": "evacuation",
     "hr": "evakuacija",
-    "hi": "निकासी / सुरक्षित बाहर निकालना",
+    "hi": "निकासी",
     "category": "safety",
-    "level": 2
+    "level": 2,
+    "ta": "காலி செய்தல் (எவாக்குவேஷன்)",
+    "te": "ఎవాక్యువేషన్",
+    "bn": "নির্গমন"
   },
   {
     "id": "core-114",
@@ -909,7 +1248,10 @@
     "hr": "prašina",
     "hi": "धूल",
     "category": "environment",
-    "level": 1
+    "level": 1,
+    "ta": "தூசி",
+    "te": "దుమ్ము",
+    "bn": "ধুলো"
   },
   {
     "id": "core-115",
@@ -917,23 +1259,32 @@
     "hr": "buka",
     "hi": "शोर",
     "category": "environment",
-    "level": 1
+    "level": 1,
+    "ta": "சத்தம்",
+    "te": "శబ్దం",
+    "bn": "শব্দ"
   },
   {
     "id": "core-116",
     "en": "earplugs",
     "hr": "čepići za uši",
-    "hi": "कान में लगाने वाले प्लग",
+    "hi": "कान प्लग",
     "category": "environment",
-    "level": 2
+    "level": 2,
+    "ta": "காதுப்பிளக்",
+    "te": "ఇయర్‌ప్లగ్స్",
+    "bn": "ইয়ারপ্লাগ"
   },
   {
     "id": "core-117",
     "en": "respirator",
     "hr": "respirator / zaštitna maska",
-    "hi": "रेस्पिरेटर / श्वसन मास्क",
+    "hi": "रेस्पिरेटर",
     "category": "environment",
-    "level": 2
+    "level": 2,
+    "ta": "மூச்சுப்பாதை முகக்கவசம்",
+    "te": "రెస్పిరేటర్",
+    "bn": "রেসপিরেটর"
   },
   {
     "id": "core-118",
@@ -941,7 +1292,10 @@
     "hr": "zaštita od pada",
     "hi": "गिरने से सुरक्षा",
     "category": "safety",
-    "level": 2
+    "level": 2,
+    "ta": "விழுதல் பாதுகாப்பு",
+    "te": "పతనం రక్షణ",
+    "bn": "পতন প্রতিরোধ"
   },
   {
     "id": "core-119",
@@ -949,7 +1303,10 @@
     "hr": "poskliznuće",
     "hi": "फिसलना",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "வழுக்கு",
+    "te": "జారి పడటం",
+    "bn": "পিচলে যাওয়া"
   },
   {
     "id": "core-120",
@@ -957,7 +1314,10 @@
     "hr": "spoticanje",
     "hi": "ठोकर लगना",
     "category": "safety",
-    "level": 1
+    "level": 1,
+    "ta": "தடுமாற்றம்",
+    "te": "తడబాటు",
+    "bn": "হোঁচট খাওয়া"
   },
   {
     "id": "core-121",
@@ -965,14 +1325,20 @@
     "hr": "strujni udar",
     "hi": "बिजली का झटका",
     "category": "safety",
-    "level": 2
+    "level": 2,
+    "ta": "மின்சாரம் பட்டல்",
+    "te": "ఎలక్ట్రిక్ షాక్",
+    "bn": "বিদ্যুতের আঘাত"
   },
   {
     "id": "core-122",
     "en": "housekeeping",
     "hr": "održavanje reda na gradilištu",
-    "hi": "सफाई व व्यवस्थापन (हाउसकीपिंग)",
+    "hi": "हाउसकीपिंग",
     "category": "safety",
-    "level": 2
+    "level": 2,
+    "ta": "பணி தள பராமரிப்பு",
+    "te": "హౌస్‌కీపింగ్",
+    "bn": "হাউজকিপিং"
   }
 ]
