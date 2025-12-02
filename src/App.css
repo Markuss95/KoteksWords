@@ -1,0 +1,240 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero {
+  display: grid;
+  gap: 14px;
+  padding: 28px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(132, 197, 255, 0.12), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  color: #7f9cff;
+  margin: 0 0 6px 0;
+  font-weight: 700;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(28px, 3vw, 38px);
+  font-weight: 700;
+  color: #f5f7ff;
+}
+
+.lede {
+  margin: 8px 0 0 0;
+  color: #d9e2ff;
+  max-width: 780px;
+  line-height: 1.6;
+}
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.stat {
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.stat-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f5f7ff;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: #c5d5ff;
+}
+
+.panel {
+  padding: 22px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.controls {
+  display: grid;
+  gap: 18px;
+}
+
+.search-box {
+  display: grid;
+  gap: 8px;
+}
+
+.search-box label {
+  font-size: 13px;
+  color: #c5d5ff;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.search-box input {
+  padding: 14px 14px 14px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #f7f9ff;
+  font-size: 15px;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #8db6ff;
+  box-shadow: 0 0 0 3px rgba(141, 182, 255, 0.25);
+}
+
+.filters {
+  display: grid;
+  gap: 10px;
+}
+
+.filter-label {
+  margin: 0;
+  font-size: 14px;
+  color: #c5d5ff;
+}
+
+.category-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pill {
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.05);
+  color: #eaf1ff;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 160ms ease;
+}
+
+.pill:hover {
+  border-color: #8db6ff;
+}
+
+.pill-active {
+  background: linear-gradient(135deg, #8db6ff, #76e7ff);
+  color: #0b1329;
+  border-color: transparent;
+  box-shadow: 0 10px 30px rgba(118, 231, 255, 0.3);
+}
+
+.word-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.word-card {
+  background: rgba(9, 16, 35, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 16px 16px 14px;
+  display: grid;
+  gap: 10px;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.word-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(118, 231, 255, 0.4);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.25);
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.badge {
+  background: rgba(255, 255, 255, 0.12);
+  color: #eaf1ff;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.hint {
+  color: #9bc4ff;
+  font-size: 12px;
+}
+
+.word-card h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f8f9ff;
+}
+
+.english {
+  margin: 0;
+  font-size: 16px;
+  color: #cfe1ff;
+}
+
+.usage {
+  margin: 2px 0 0 0;
+  color: #9cb2d9;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.empty {
+  margin: 12px 0 0;
+  color: #c5d5ff;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  #root {
+    padding: 20px 16px 48px;
+  }
+
+  .panel {
+    padding: 18px;
+  }
+
+  .hero {
+    padding: 22px;
+  }
+}
