@@ -137,32 +137,16 @@ function App() {
     })
   }, [activeCategory, query])
 
-  const safetyCount = words.filter((word) => word.category === 'Safety').length
-
   return (
     <div className="page">
       <header className="hero">
         <div>
-          <p className="eyebrow">Gradilište 101</p>
-          <h1>Teach your crew core Croatian site words</h1>
+          <p className="eyebrow">Osijek-KOTEKS d.d.</p>
+          <h1>Core Croatian construction site words</h1>
           <p className="lede">
             Quick, friendly glossary for foreign workers on our construction sites. Filter by topic,
             learn the sound, and share a short usage line for faster onboarding.
           </p>
-        </div>
-        <div className="hero-stats">
-          <div className="stat">
-            <span className="stat-value">{words.length}</span>
-            <span className="stat-label">Key terms</span>
-          </div>
-          <div className="stat">
-            <span className="stat-value">{safetyCount}</span>
-            <span className="stat-label">Safety first</span>
-          </div>
-          <div className="stat">
-            <span className="stat-value">B1</span>
-            <span className="stat-label">Simple phrasing</span>
-          </div>
         </div>
       </header>
 
