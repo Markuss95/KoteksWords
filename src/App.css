@@ -92,6 +92,20 @@
   gap: 10px;
 }
 
+.translation-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.translation-meta {
+  display: grid;
+  gap: 4px;
+  min-width: 220px;
+}
+
 .filter-label {
   margin: 0;
   font-size: 14px;
@@ -102,6 +116,28 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.select {
+  padding: 11px 12px;
+  border-radius: 12px;
+  background: #0d1531;
+  border: 1px solid rgba(141, 182, 255, 0.4);
+  color: #ffffff;
+  font-size: 15px;
+  min-width: 180px;
+  cursor: pointer;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #8db6ff;
+  box-shadow: 0 0 0 3px rgba(141, 182, 255, 0.25);
+}
+
+.select option {
+  color: #f7f9ff;
 }
 
 .pill {
@@ -151,7 +187,7 @@
 
 .card-head {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   gap: 8px;
 }
@@ -164,11 +200,6 @@
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.03em;
-}
-
-.hint {
-  color: #9bc4ff;
-  font-size: 12px;
 }
 
 .word-card h3 {
