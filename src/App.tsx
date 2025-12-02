@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+﻿import { useMemo, useState } from 'react'
 import './App.css'
 
 type WordEntry = {
@@ -8,7 +8,6 @@ type WordEntry = {
     hindi: string
   }
   category: 'Safety' | 'Tools & equipment' | 'Materials' | 'Actions & site talk' | 'Logistics'
-  usage?: string
   note?: string
 }
 
@@ -20,7 +19,6 @@ const words: WordEntry[] = [
       hindi: 'हेलमेट',
     },
     category: 'Safety',
-    usage: 'Stavi šljem prije ulaska na gradilište.',
     note: 'SHLYEM',
   },
   {
@@ -30,7 +28,6 @@ const words: WordEntry[] = [
       hindi: 'दस्ताने',
     },
     category: 'Safety',
-    usage: 'Trebaš rukavice za rad s armaturom.',
     note: 'roo-KAH-vee-tseh',
   },
   {
@@ -40,7 +37,6 @@ const words: WordEntry[] = [
       hindi: 'सुरक्षा बेल्ट',
     },
     category: 'Safety',
-    usage: 'Veži sigurnosni pojas na skelu.',
   },
   {
     croatian: 'zaštitne naočale',
@@ -49,7 +45,6 @@ const words: WordEntry[] = [
       hindi: 'सुरक्षा चश्मा',
     },
     category: 'Safety',
-    usage: 'Za rezanje moraš imati zaštitne naočale.',
   },
   {
     croatian: 'ljestve',
@@ -58,7 +53,6 @@ const words: WordEntry[] = [
       hindi: 'सीढ़ी',
     },
     category: 'Tools & equipment',
-    usage: 'Drži ljestve dok penjem.',
     note: 'LYEST-veh',
   },
   {
@@ -68,7 +62,6 @@ const words: WordEntry[] = [
       hindi: 'ड्रिल मशीन',
     },
     category: 'Tools & equipment',
-    usage: 'Pripremi bušilicu i burgije.',
   },
   {
     croatian: 'kutna brusilica',
@@ -77,7 +70,6 @@ const words: WordEntry[] = [
       hindi: 'एंगल ग्राइंडर',
     },
     category: 'Tools & equipment',
-    usage: 'Koristi kutnu brusilicu za rezanje cijevi.',
   },
   {
     croatian: 'mjerač trake',
@@ -86,7 +78,6 @@ const words: WordEntry[] = [
       hindi: 'मापने का फीता',
     },
     category: 'Tools & equipment',
-    usage: 'Dodaj mi mjerač trake od pet metara.',
   },
   {
     croatian: 'beton',
@@ -95,7 +86,6 @@ const words: WordEntry[] = [
       hindi: 'कंक्रीट',
     },
     category: 'Materials',
-    usage: 'Beton stiže u deset sati.',
   },
   {
     croatian: 'armatura',
@@ -104,7 +94,6 @@ const words: WordEntry[] = [
       hindi: 'सरिया / रिइनफोर्समेंट',
     },
     category: 'Materials',
-    usage: 'Armatura ide u temelj.',
     note: 'ahr-mah-TOO-rah',
   },
   {
@@ -114,7 +103,6 @@ const words: WordEntry[] = [
       hindi: 'ईंट',
     },
     category: 'Materials',
-    usage: 'Složi cigle na paletu.',
   },
   {
     croatian: 'žbuka',
@@ -123,7 +111,6 @@ const words: WordEntry[] = [
       hindi: 'प्लास्टर',
     },
     category: 'Materials',
-    usage: 'Nanesi žbuku tanko u jednom potezu.',
   },
   {
     croatian: 'pazi',
@@ -132,7 +119,6 @@ const words: WordEntry[] = [
       hindi: 'सावधान',
     },
     category: 'Actions & site talk',
-    usage: 'Pazi na kablove.',
     note: 'PAH-zee',
   },
   {
@@ -142,7 +128,6 @@ const words: WordEntry[] = [
       hindi: 'एक साथ उठाते हैं',
     },
     category: 'Actions & site talk',
-    usage: 'Ovaj nosač nosimo zajedno.',
   },
   {
     croatian: 'istovar',
@@ -151,7 +136,6 @@ const words: WordEntry[] = [
       hindi: 'उतारना',
     },
     category: 'Logistics',
-    usage: 'Istovar materijala je kod rampe.',
   },
   {
     croatian: 'dovoz',
@@ -160,7 +144,6 @@ const words: WordEntry[] = [
       hindi: 'डिलीवरी / आगमन',
     },
     category: 'Logistics',
-    usage: 'Dovoz betona kasni petnaest minuta.',
   },
 ]
 
@@ -190,7 +173,6 @@ function App() {
         word.croatian,
         word.translations.english,
         word.translations.hindi,
-        word.usage,
         word.note,
       ]
         .filter(Boolean)
@@ -244,7 +226,7 @@ function App() {
           <div className="translation-row">
             <div className="translation-meta">
               <p className="filter-label">Translation language</p>
-              <p className="hint">Switch to Hindi when crews prefer it.</p>
+             
             </div>
             <select
               value={translation}
@@ -268,7 +250,6 @@ function App() {
               </div>
               <h3>{word.croatian}</h3>
               <p className="english">{word.translations[translation]}</p>
-              {word.usage && <p className="usage">{word.usage}</p>}
             </article>
           ))}
         </div>
