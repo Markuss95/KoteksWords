@@ -10,6 +10,7 @@ type WordEntry = {
   ta?: string
   te?: string
   bn?: string
+  es?: string
   category: string
   level?: number
 }
@@ -53,6 +54,7 @@ const categories = [
 
 const translationOptions = [
   { key: 'en', label: 'English' },
+  { key: 'es', label: 'Spanish' },
   { key: 'hi', label: 'Hindi' },
   { key: 'ta', label: 'Tamil' },
   { key: 'te', label: 'Telugu' },
@@ -135,7 +137,7 @@ function App() {
       const matchesCategory = activeCategory === 'All' || word.category === activeCategory
       if (!normalizedQuery) return matchesCategory
 
-      const searchable = [word.hr, word.en, word.hi, word.ta, word.te, word.bn]
+      const searchable = [word.hr, word.en, word.es, word.hi, word.ta, word.te, word.bn]
         .filter(Boolean)
         .join(' ')
         .toLowerCase()
