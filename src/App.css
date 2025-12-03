@@ -208,6 +208,42 @@
   gap: 8px;
 }
 
+.word-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.word-row h3 {
+  flex: 1;
+  min-width: 0;
+}
+
+.play-button {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.08);
+  color: #f8f9ff;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.play-button:hover {
+  border-color: rgba(118, 231, 255, 0.7);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.play-button:focus-visible {
+  outline: none;
+  border-color: #8db6ff;
+  box-shadow: 0 0 0 3px rgba(141, 182, 255, 0.4);
+}
+
 .badge {
   background: rgba(255, 255, 255, 0.12);
   color: #eaf1ff;

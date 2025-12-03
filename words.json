@@ -2,7 +2,7 @@
   {
     "id": "core-001",
     "en": "construction",
-    "hr": "gradnja / građevina",
+    "hr": "gradnja",
     "hi": "निर्माण",
     "category": "general",
     "level": 1,
@@ -244,7 +244,7 @@
   {
     "id": "core-023",
     "en": "trowel",
-    "hr": "gleter / žlica za žbuku",
+    "hr": "gleter",
     "hi": "गारा फैलाने की करछी (ट्रॉवेल)",
     "category": "tools",
     "level": 2,
@@ -266,7 +266,7 @@
   {
     "id": "core-025",
     "en": "tape measure",
-    "hr": "metar / mjerna traka",
+    "hr": "metar ili mjerna traka",
     "hi": "फीता / मापने की टेप",
     "category": "tools",
     "level": 1,
@@ -299,7 +299,7 @@
   {
     "id": "core-028",
     "en": "generator",
-    "hr": "generator / agregat",
+    "hr": "agregat",
     "hi": "जनरेटर",
     "category": "equipment",
     "level": 2,
@@ -442,7 +442,7 @@
   {
     "id": "core-041",
     "en": "mortar",
-    "hr": "mort / žbuka",
+    "hr": "žbuka",
     "hi": "गारा / मसाला",
     "category": "materials",
     "level": 2,
@@ -497,7 +497,7 @@
   {
     "id": "core-046",
     "en": "formwork",
-    "hr": "oplata / šalung",
+    "hr": "oplata",
     "hi": "फॉर्मवर्क / सांचाबंदी",
     "category": "structure",
     "level": 2,
@@ -574,7 +574,7 @@
   {
     "id": "core-053",
     "en": "backfill",
-    "hr": "nasip / zasip",
+    "hr": "nasip",
     "hi": "बैकफिल / भराई",
     "category": "earthworks",
     "level": 2,
@@ -618,7 +618,7 @@
   {
     "id": "core-057",
     "en": "masonry",
-    "hr": "zidanje / zidarija",
+    "hr": "zidanje",
     "hi": "ईंट का काम",
     "category": "materials",
     "level": 2,
@@ -629,7 +629,7 @@
   {
     "id": "core-058",
     "en": "tile",
-    "hr": "pločica / crijep",
+    "hr": "pločica",
     "hi": "टाइल",
     "category": "materials",
     "level": 1,
@@ -640,7 +640,7 @@
   {
     "id": "core-059",
     "en": "drywall",
-    "hr": "knauf ploča / gips-karton",
+    "hr": "knauf ploča",
     "hi": "ड्रायवॉल",
     "category": "materials",
     "level": 3,
@@ -684,7 +684,7 @@
   {
     "id": "core-063",
     "en": "sealant",
-    "hr": "brtvilo / silikon",
+    "hr": "brtvilo",
     "hi": "सीलेंट",
     "category": "materials",
     "level": 3,
@@ -706,7 +706,7 @@
   {
     "id": "core-065",
     "en": "timber",
-    "hr": "drvo / drvena građa",
+    "hr": "drvo",
     "hi": "लकड़ी / टिम्बर",
     "category": "materials",
     "level": 1,
@@ -725,17 +725,7 @@
     "te": "ప్లైవుడ్",
     "bn": "প্লাইউড"
   },
-  {
-    "id": "core-067",
-    "en": "anchor",
-    "hr": "anker / sidro",
-    "hi": "एंकर",
-    "category": "fixings",
-    "level": 2,
-    "ta": "ஆங்கர்",
-    "te": "యాంకర్",
-    "bn": "অ্যাঙ্কর"
-  },
+
   {
     "id": "core-068",
     "en": "bolt",
@@ -761,7 +751,7 @@
   {
     "id": "core-070",
     "en": "screw",
-    "hr": "vijak / šaraf",
+    "hr": "šaraf",
     "hi": "पेंच / स्क्रू",
     "category": "fixings",
     "level": 1,
@@ -857,17 +847,7 @@
     "te": "సాకెట్",
     "bn": "সকেট"
   },
-  {
-    "id": "core-079",
-    "en": "breaker",
-    "hr": "osigurač / sklopka",
-    "hi": "ब्रेक़र / एमसीबी",
-    "category": "electrical",
-    "level": 2,
-    "ta": "பிரேக்கர்",
-    "te": "బ్రేకర్",
-    "bn": "ব্রেকার"
-  },
+
   {
     "id": "core-080",
     "en": "plan",
@@ -882,7 +862,7 @@
   {
     "id": "core-081",
     "en": "drawing",
-    "hr": "nacrt / crtež",
+    "hr": "nacrt",
     "hi": "ड्रॉइंग / नक़्शा",
     "category": "drawings",
     "level": 1,
@@ -901,17 +881,7 @@
     "te": "సెక్షన్",
     "bn": "সেকশন"
   },
-  {
-    "id": "core-083",
-    "en": "elevation",
-    "hr": "pročelje / fasadni nacrt",
-    "hi": "एलिवेशन",
-    "category": "drawings",
-    "level": 2,
-    "ta": "எலிவேஷன்",
-    "te": "ఎలివేషన్",
-    "bn": "এলিভেশন"
-  },
+
   {
     "id": "core-084",
     "en": "detail",
@@ -923,17 +893,7 @@
     "te": "వివరం",
     "bn": "বিবরণ"
   },
-  {
-    "id": "core-085",
-    "en": "dimension",
-    "hr": "dimenzija",
-    "hi": "आकार / माप (डायमेंशन)",
-    "category": "drawings",
-    "level": 2,
-    "ta": "அளவு",
-    "te": "కొలత",
-    "bn": "মাত্রা"
-  },
+
   {
     "id": "core-086",
     "en": "scale",
@@ -948,7 +908,7 @@
   {
     "id": "core-087",
     "en": "survey",
-    "hr": "geodetsko snimanje / izmjera",
+    "hr": "geodetsko snimanje",
     "hi": "सर्वे / माप सर्वेक्षण",
     "category": "survey",
     "level": 2,
@@ -967,21 +927,11 @@
     "te": "స్టేక్‌ఔట్",
     "bn": "স্টেকআউট"
   },
-  {
-    "id": "core-089",
-    "en": "grade",
-    "hr": "niveleta / nagib",
-    "hi": "ग्रेड / ढाल",
-    "category": "survey",
-    "level": 2,
-    "ta": "சாய்வு",
-    "te": "గ్రేడ్",
-    "bn": "ঢাল"
-  },
+
   {
     "id": "core-090",
     "en": "alignment",
-    "hr": "trasiranje / poravnanje",
+    "hr": "poravnanje",
     "hi": "अलाइनमेंट / सीध",
     "category": "survey",
     "level": 2,
@@ -989,32 +939,11 @@
     "te": "అలైన్‌మెంట్",
     "bn": "অ্যালাইনমেন্ট"
   },
-  {
-    "id": "core-091",
-    "en": "layout",
-    "hr": "raspored / trasiranje",
-    "hi": "लेआउट / नक़्शानुसार व्यवस्था",
-    "category": "survey",
-    "level": 2,
-    "ta": "வடிவமைப்பு (லேஅவுட்)",
-    "te": "లేఅవుట్",
-    "bn": "লেআউট"
-  },
-  {
-    "id": "core-092",
-    "en": "tolerance",
-    "hr": "tolerancija",
-    "hi": "टॉलरेंस / सहनशील भिन्नता",
-    "category": "general",
-    "level": 3,
-    "ta": "அனுமதி விலக்கம்",
-    "te": "టాలరెన్స్",
-    "bn": "টলারেন্স"
-  },
+
   {
     "id": "core-093",
     "en": "crew",
-    "hr": "ekipa / radna grupa",
+    "hr": "ekipa",
     "hi": "टीम / दल",
     "category": "people",
     "level": 1,
@@ -1025,7 +954,7 @@
   {
     "id": "core-094",
     "en": "foreman",
-    "hr": "poslovođa / šef gradilišta",
+    "hr": "poslovođa",
     "hi": "फोरमैन / मुखिया",
     "category": "people",
     "level": 2,
@@ -1033,17 +962,7 @@
     "te": "ఫోర్‌మాన్",
     "bn": "ফোরম্যান"
   },
-  {
-    "id": "core-095",
-    "en": "supervisor",
-    "hr": "nadzornik",
-    "hi": "सुपरवाइज़र / निरीक्षक",
-    "category": "people",
-    "level": 2,
-    "ta": "மேற்பார்வையாளர்",
-    "te": "పర్యవేక్షకుడు",
-    "bn": "তত্ত্বাবধায়ক"
-  },
+
   {
     "id": "core-096",
     "en": "engineer",
@@ -1054,17 +973,6 @@
     "ta": "பொறியாளர்",
     "te": "ఇంజనీరు",
     "bn": "প্রকৌশলী"
-  },
-  {
-    "id": "core-097",
-    "en": "architect",
-    "hr": "arhitekt",
-    "hi": "आर्किटेक्ट / वास्तुकार",
-    "category": "people",
-    "level": 2,
-    "ta": "ஆர்கிடெக்ட்",
-    "te": "ఆర్కిటెక్ట్",
-    "bn": "স্থপতি"
   },
   {
     "id": "core-098",
@@ -1099,17 +1007,7 @@
     "te": "కూలీ కార్మికుడు",
     "bn": "মজুর"
   },
-  {
-    "id": "core-101",
-    "en": "apprentice",
-    "hr": "šegrt / priučeni radnik",
-    "hi": "प्रशिक्षु / अपरेंटिस",
-    "category": "people",
-    "level": 2,
-    "ta": "பயிற்சி தொழிலாளி",
-    "te": "శిక్షణార్థి",
-    "bn": "শিক্ষানবিশ"
-  },
+
   {
     "id": "core-102",
     "en": "meeting",
@@ -1135,24 +1033,13 @@
   {
     "id": "core-104",
     "en": "training",
-    "hr": "obuka / trening",
+    "hr": "obuka",
     "hi": "प्रशिक्षण",
     "category": "admin",
     "level": 2,
     "ta": "பயிற்சி",
     "te": "శిక్షణ",
     "bn": "প্রশিক্ষণ"
-  },
-  {
-    "id": "core-105",
-    "en": "checklist",
-    "hr": "kontrolni popis",
-    "hi": "चेकलिस्ट",
-    "category": "admin",
-    "level": 2,
-    "ta": "சரிபார்ப்பு பட்டியல்",
-    "te": "తనిఖీ జాబితా",
-    "bn": "চেকলিস্ট"
   },
   {
     "id": "core-106",
@@ -1275,17 +1162,7 @@
     "te": "ఇయర్‌ప్లగ్స్",
     "bn": "ইয়ারপ্লাগ"
   },
-  {
-    "id": "core-117",
-    "en": "respirator",
-    "hr": "respirator / zaštitna maska",
-    "hi": "रेस्पिरेटर",
-    "category": "environment",
-    "level": 2,
-    "ta": "மூச்சுப்பாதை முகக்கவசம்",
-    "te": "రెస్పిరేటర్",
-    "bn": "রেসপিরেটর"
-  },
+
   {
     "id": "core-118",
     "en": "fall protection",
@@ -1297,28 +1174,7 @@
     "te": "పతనం రక్షణ",
     "bn": "পতন প্রতিরোধ"
   },
-  {
-    "id": "core-119",
-    "en": "slip",
-    "hr": "poskliznuće",
-    "hi": "फिसलना",
-    "category": "safety",
-    "level": 1,
-    "ta": "வழுக்கு",
-    "te": "జారి పడటం",
-    "bn": "পিচলে যাওয়া"
-  },
-  {
-    "id": "core-120",
-    "en": "trip",
-    "hr": "spoticanje",
-    "hi": "ठोकर लगना",
-    "category": "safety",
-    "level": 1,
-    "ta": "தடுமாற்றம்",
-    "te": "తడబాటు",
-    "bn": "হোঁচট খাওয়া"
-  },
+
   {
     "id": "core-121",
     "en": "electric shock",
@@ -1329,16 +1185,6 @@
     "ta": "மின்சாரம் பட்டல்",
     "te": "ఎలక్ట్రిక్ షాక్",
     "bn": "বিদ্যুতের আঘাত"
-  },
-  {
-    "id": "core-122",
-    "en": "housekeeping",
-    "hr": "održavanje reda na gradilištu",
-    "hi": "हाउसकीपिंग",
-    "category": "safety",
-    "level": 2,
-    "ta": "பணி தள பராமரிப்பு",
-    "te": "హౌస్‌కీపింగ్",
-    "bn": "হাউজকিপিং"
   }
+
 ]

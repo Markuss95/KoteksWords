@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import wordsData from '../words.json'
 import './App.css'
 
@@ -18,6 +18,31 @@ const formatCategoryLabel = (category: string) =>
   category.replace(/\b\w/g, (char) => char.toUpperCase())
 
 const words: WordEntry[] = wordsData
+
+const normalizeText = (text: string) =>
+  text
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/gi, ' ')
+    .trim()
+    .toLowerCase()
+
+const audioModules = import.meta.glob('../assets/audio/*.mp3', { eager: true }) as Record<
+  string,
+  { default: string }
+>
+
+const audioMap = new Map<string, string>(
+  Object.entries(audioModules).map(([path, mod]) => {
+    const filename = path.split('/').pop()?.replace(/\.mp3$/i, '') ?? ''
+    return [normalizeText(filename), mod.default]
+  }),
+)
+
+const getAudioForWord = (word: WordEntry) => {
+  const base = word.hr.split('/')[0].trim()
+  return audioMap.get(normalizeText(base))
+}
 
 const categories = [
   { value: 'All', label: 'All' },
@@ -40,6 +65,15 @@ function App() {
   const [query, setQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState<(typeof categories)[number]['value']>('All')
   const [translation, setTranslation] = useState<TranslationKey>('en')
+  const playWordAudio = useCallback((word: WordEntry) => {
+    const src = getAudioForWord(word)
+    if (!src) return
+
+    const audio = new Audio(src)
+    audio.play().catch(() => {
+      // Swallow play errors (e.g., user hasn't interacted yet)
+    })
+  }, [])
 
   const filteredWords = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase()
@@ -119,7 +153,18 @@ function App() {
               <div className="card-head">
                 <span className="badge">{formatCategoryLabel(word.category)}</span>
               </div>
-              <h3>{word.hr}</h3>
+              <div className="word-row">
+                <h3>{word.hr}</h3>
+                <button
+                  type="button"
+                  className="play-button"
+                  onClick={() => playWordAudio(word)}
+                  aria-label={`Play pronunciation for ${word.hr}`}
+                  title="Listen"
+                >
+                  <span aria-hidden="true">🔊</span>
+                </button>
+              </div>
               <p className="english">
                 {word[translation]?.trim()
                   ? word[translation]
