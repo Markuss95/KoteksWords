@@ -61,10 +61,64 @@ const translationOptions = [
 
 type TranslationKey = (typeof translationOptions)[number]['key']
 
+const getTranslationLabel = (key: TranslationKey) =>
+  translationOptions.find((option) => option.key === key)?.label ?? 'selected language'
+
+type QuizQuestion = {
+  word: WordEntry
+  options: string[]
+  correctIndex: number
+}
+
+const getTranslationForQuiz = (word: WordEntry, key: TranslationKey) =>
+  (word[key]?.trim() ?? word.en?.trim() ?? '').trim()
+
+const shuffleArray = <T,>(values: T[]) => {
+  const clone = [...values]
+  for (let i = clone.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[clone[i], clone[j]] = [clone[j], clone[i]]
+  }
+  return clone
+}
+
+const buildQuizQuestions = (language: TranslationKey): QuizQuestion[] => {
+  const wordsWithTranslations = words.filter((word) => getTranslationForQuiz(word, language))
+  const uniqueTranslations = Array.from(
+    new Set(wordsWithTranslations.map((word) => getTranslationForQuiz(word, language)).filter(Boolean)),
+  )
+
+  if (wordsWithTranslations.length < 10 || uniqueTranslations.length < 4) {
+    return []
+  }
+
+  const selectedWords = shuffleArray(wordsWithTranslations).slice(0, 10)
+
+  return selectedWords.map((word) => {
+    const correctAnswer = getTranslationForQuiz(word, language)
+    const distractorPool = shuffleArray(uniqueTranslations.filter((text) => text !== correctAnswer))
+    const options = shuffleArray([correctAnswer, ...distractorPool.slice(0, 3)])
+
+    return {
+      word,
+      options,
+      correctIndex: options.indexOf(correctAnswer),
+    }
+  })
+}
+
 function App() {
   const [query, setQuery] = useState('')
   const [activeCategory, setActiveCategory] = useState<(typeof categories)[number]['value']>('All')
   const [translation, setTranslation] = useState<TranslationKey>('en')
+  const [quizLanguage, setQuizLanguage] = useState<TranslationKey>('en')
+  const [quizState, setQuizState] = useState<'idle' | 'active' | 'complete'>('idle')
+  const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([])
+  const [quizIndex, setQuizIndex] = useState(0)
+  const [selectedChoice, setSelectedChoice] = useState<number | null>(null)
+  const [quizScore, setQuizScore] = useState(0)
+  const [quizError, setQuizError] = useState<string | null>(null)
+  const quizLanguageLabel = getTranslationLabel(quizLanguage)
   const playWordAudio = useCallback((word: WordEntry) => {
     const src = getAudioForWord(word)
     if (!src) return
@@ -90,6 +144,54 @@ function App() {
     })
   }, [activeCategory, query])
 
+  const currentQuestion = quizQuestions[quizIndex]
+
+  const startQuiz = useCallback(() => {
+    const questions = buildQuizQuestions(quizLanguage)
+    if (questions.length < 10) {
+      setQuizError('Nije moguce napraviti kviz: nema dovoljno rijeci s odabranim prijevodom.')
+      setQuizState('idle')
+      return
+    }
+
+    setQuizQuestions(questions)
+    setQuizIndex(0)
+    setSelectedChoice(null)
+    setQuizScore(0)
+    setQuizError(null)
+    setQuizState('active')
+  }, [quizLanguage])
+
+  const handleAnswer = (index: number) => {
+    if (!currentQuestion || selectedChoice !== null) return
+
+    setSelectedChoice(index)
+    if (index === currentQuestion.correctIndex) {
+      setQuizScore((prev) => prev + 1)
+    }
+  }
+
+  const goToNext = () => {
+    if (!currentQuestion) return
+
+    if (quizIndex === quizQuestions.length - 1) {
+      setQuizState('complete')
+      return
+    }
+
+    setQuizIndex((prev) => prev + 1)
+    setSelectedChoice(null)
+  }
+
+  const resetQuiz = () => {
+    setQuizState('idle')
+    setQuizQuestions([])
+    setQuizIndex(0)
+    setSelectedChoice(null)
+    setQuizScore(0)
+    setQuizError(null)
+  }
+
   return (
     <div className="page">
       <header className="hero">
@@ -102,6 +204,109 @@ function App() {
       </header>
 
       <section className="panel">
+        <div className="quiz-card">
+          <div className="quiz-head">
+            <div>
+              <p className="filter-label">QUIZ</p>
+              <h2>Test your knowledge</h2>
+              <p className="quiz-subtitle">10 questions with A/B/C/D answers for randomly selected words.</p>
+            </div>
+            <div className="quiz-actions">
+              <select
+                value={quizLanguage}
+                onChange={(event) => setQuizLanguage(event.target.value as TranslationKey)}
+                className="select"
+              >
+                {translationOptions.map((option) => (
+                  <option key={option.key} value={option.key}>
+                    {option.label}
+                  </option>
+                ))}
+              </select>
+              <div className="quiz-buttons">
+                <button type="button" className="primary-btn" onClick={startQuiz}>
+                  Start quiz
+                </button>
+                {quizState !== 'idle' && (
+                  <button type="button" className="ghost-btn" onClick={resetQuiz}>
+                    Reset
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+
+          {quizError && <p className="quiz-error">{quizError}</p>}
+
+          {quizState === 'idle' && (
+            <p className="quiz-empty"></p>
+          )}
+
+          {quizState === 'active' && currentQuestion && (
+            <div className="quiz-body">
+            <div className="quiz-meta">
+              <span className="quiz-chip">Pitanje {quizIndex + 1} / {quizQuestions.length}</span>
+              <span className="quiz-score">Bodovi: {quizScore}</span>
+            </div>
+            <h3 className="quiz-prompt">{currentQuestion.word.hr}</h3>
+            <p className="quiz-instruction">Select a translation in {quizLanguageLabel}.</p>
+              <div className="quiz-options">
+                {currentQuestion.options.map((option, index) => {
+                  const selected = selectedChoice === index
+                  const isCorrect = selectedChoice !== null && index === currentQuestion.correctIndex
+                  const isWrongSelection =
+                    selectedChoice !== null && selectedChoice === index && !isCorrect
+
+                  return (
+                    <button
+                      key={option}
+                      type="button"
+                      className={`option-button ${selected ? 'option-selected' : ''} ${isCorrect ? 'option-correct' : ''} ${isWrongSelection ? 'option-wrong' : ''}`}
+                      onClick={() => handleAnswer(index)}
+                      disabled={selectedChoice !== null}
+                    >
+                      <span className="option-letter">{String.fromCharCode(65 + index)}</span>
+                      <span className="option-text">{option}</span>
+                    </button>
+                  )
+                })}
+              </div>
+              {selectedChoice !== null && (
+                <div className="quiz-footer">
+                  <p className="quiz-feedback">
+                    {selectedChoice === currentQuestion.correctIndex
+                      ? 'Tocno!'
+                      : `Netocno. Tocan odgovor: ${currentQuestion.options[currentQuestion.correctIndex]}`}
+                  </p>
+                  <button type="button" className="primary-btn" onClick={goToNext}>
+                    {quizIndex === quizQuestions.length - 1 ? 'End' : 'Next Question ->'}
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
+
+          {quizState === 'complete' && (
+            <div className="quiz-complete">
+              <div>
+                <p className="filter-label">Rezultat</p>
+                <h3 className="quiz-prompt">
+                  Ostvario si {quizScore} / {quizQuestions.length} bodova
+                </h3>
+                <p className="quiz-instruction">Ponovi kviz ili promijeni jezik i pokusaj ponovo.</p>
+              </div>
+              <div className="quiz-buttons">
+                <button type="button" className="primary-btn" onClick={startQuiz}>
+                  Ponovi kviz
+                </button>
+                <button type="button" className="ghost-btn" onClick={resetQuiz}>
+                  Zatvori
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
+
         <div className="controls">
           <div className="search-box">
             <label htmlFor="search">Search Croatian or translation</label>
