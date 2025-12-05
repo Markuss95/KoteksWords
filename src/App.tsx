@@ -133,7 +133,7 @@ function App() {
 
   const filteredWords = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase()
-    return words.filter((word) => {
+    const filtered = words.filter((word) => {
       const matchesCategory = activeCategory === 'All' || word.category === activeCategory
       if (!normalizedQuery) return matchesCategory
 
@@ -144,6 +144,10 @@ function App() {
 
       return matchesCategory && searchable.includes(normalizedQuery)
     })
+
+    return filtered.sort((a, b) =>
+      a.hr.localeCompare(b.hr, 'hr', { sensitivity: 'base' }),
+    )
   }, [activeCategory, query])
 
   const currentQuestion = quizQuestions[quizIndex]
